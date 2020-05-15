@@ -22,3 +22,4 @@ You're asked to complete the following steps:
 If you experience difficulties at any point, please contact Jay through Avenue to Learn.
  
 
+[BACK TO MAIN PAGE](index.md)

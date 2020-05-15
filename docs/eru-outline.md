@@ -58,4 +58,4 @@ All deliverables will be compiled in a GitHub repository that you will create fo
 ## Instructor biography:
 In his day job, [Jay Brodeur](https://experts.mcmaster.ca/display/brodeujj) is the Associate Director of Digital Scholarship Services in the McMaster University Library, where he oversees a variety of services that support research and instruction at McMaster. His background is in the Environmental Sciences, and his research interests include climate change, GIS and geomatics, and data management. When he can, Jay also enjoys teaching; he regularly teaches in the iSci program, and has been fortunate to instruct courses in the Faculties of Science, Social Sciences, and Humanities, as well as the Arts & Science Program. 
 
-
+[BACK TO MAIN PAGE](index.md)
