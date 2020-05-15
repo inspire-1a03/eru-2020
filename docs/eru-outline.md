@@ -36,12 +36,11 @@ All deliverables will be compiled in a GitHub repository that you will create fo
 
 | Deliverable | Weight | Notes |
 |-------------|-------:|-------|
-|             |        |Started on Day 1; Completed on Day 2|
-|             |        |       |
-|             |        |       |
-|             |        |       |
-|             |        |       |
-|             |        |       |
+|Day 1 reflection + embedded photo| 15% |Started on Day 1; Completed on Day 2|
+|Day 2 results + uploaded thermometer code| 20% |Completed on Day 2|
+|Final device description + code + sales pitch video| 40% |Completed by Day 4|
+|Final reflection & summary| 15% |Completed on Day 4|
+|Overall project webpage quality|10%|       |
 
 
 ## Instructor Biography:
