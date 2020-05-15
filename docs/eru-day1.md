@@ -268,6 +268,9 @@ In this example, you'll use a potentiometer (dial) to control the brightness of 
 ![Analog vs. Digital Signals](images/analog-digital.png "Analog vs. Digital Signals")
 2. The map function is very useful for scaling the range of one variable to another range. In this example, the analog signal (from the potentiometer) ranges between 0 and 1023, while the acceptable output range for the LED is 0 to 255. The map function proportionally scales the potentimeter value to a usable value for the LED. 
 3. In this example, you've used the Serial Console to establish and carry out serial communication between the Arduino and the computer. The setup function line ```Serial.begin(9600);``` establishes the connection, and the input argument (9600) in this case, determines the rate of information transfer, also known as the *baud* rate (9600 kilobits per second in this case). Clicking the dropdown on the bottom-right of the Serial Console displays the different baud rates that can be used. Note that the baud rate stated in the code needs to match that set in the Serial Console to receive intelligible output.
+4. In some cases (or at least on my Windows 10 laptop), the Serial Console won't appear on the screen when you click it. If this happens, you should be able to fix it by maximizing it in the explorer bar.
+![Maximizing the serial console](images/fix-serial-monitor.png "Maximizing the serial console")
+
 
 ## Part 12: Potentiometer out, photoresistor in
 In this example, we’re going to work from the code and wiring from the previous example, and replace the potentimeter with a photoresistor. The point of this is to demonstrate how both of these items can be used as control devices by providing variable resistance. 
