@@ -21,5 +21,11 @@ Copies of your module outline will be provided in your project repository, but y
 Please complete the tasks outlined [here](eru-setup.md) prior to the initial class.
 
 # Worksheets:
-Days 1 & 2 - *coming soon*  
+<!--
+[Day 1](eru-day1.md)
+[Day 2](eru-day2.md)
+[Days 3 & 4](eru-day3-4.md)
+-->
+Day 1 - *coming soon*  
+Day 2 - *coming soon*  
 Days 3 & 4 - *coming soon*

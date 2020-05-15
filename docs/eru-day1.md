@@ -1,10 +1,10 @@
 ---
-title: eru-day1-2
+title: eru-day1
 ---
 
 [BACK TO MAIN PAGE](index.md)
 
-# ERU - Day 1 & 2 Worksheet
+# ERU - Day 1 Worksheet
 
 **Welcome to Electronics for the Rest of Us!**  
 <br>
@@ -25,25 +25,25 @@ By the end of this module, you will be able to:
 - Create, edit, and version control files in a GitHub repository
 - Use GitHub Pages to share your results on an openly-accessible webpage
 
-## Part 1: Introduction to the module
+## Exercise 1: Introduction to the module
 
 The following introductory slideshow will be presented by Jay during the opening class. It provides an overview of the module, its components, expectations, and deliverables. 
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGF9iiknpFD8UbYc0AZwdgcNO8SvpcMJ73Y5ASyecBScyvJuylV-xTP95J_hA42YNe1FkxRFMuXxhE/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGF9iiknpFD8UbYc0AZwdgcNO8SvpcMJ73Y5ASyecBScyvJuylV-xTP95J_hA42YNe1FkxRFMuXxhE/embed?start=false&loop=true&delayms=15000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <br>
 [View slides in PDF format](slides.pdf)
 <br>
 
 
-## Part 2: Intro to Arduinos, Sensors, and Actuators
+## Exercise 2: Intro to Arduinos, Sensors, and Actuators
 
 Follow along with this short presentation of the types of electronic components we'll be using in this module. Feel free to unpack your kit and check out the components.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGF9iiknpFD8UbYc0AZwdgcNO8SvpcMJ73Y5ASyecBScyvJuylV-xTP95J_hA42YNe1FkxRFMuXxhE/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmmHAFZtXujn8wWzg8aTdFP0gDFyNTXNqNNpOPwptnSYu_14RDOZCadPCjTX0ELT_yyDm-w6Qh6fWv/embed?start=false&loop=true&delayms=15000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
-## Part 3: Getting Started
+## Exercise 3: Getting Started
 Now that you've unpacked your kit, it's time to plug in your Arduino and begin using it. 
 ### Physically connect the Arduino
 - The Arduino can use the USB port to communicate with your computer, as well as draw power from is. Use the USB cable provided to connect the Arduino to your computer's USB port. If done correctly, the on-board LED labeled "**ON**" should light up. If this doesn't work, disconnect and attempt again. 
@@ -65,7 +65,7 @@ A physically connected Arduino should appear in the Serial Ports list as **COMX 
 To establish the serial connection, click on the listed COM port that where the Arduino is connected. A checkmark should appear beside the port when a connection has been made.
 ![Arduino IDE with Ports window showing](images/arduino-port2.png "Arduino IDE Ports list -- Arduino connected")
 
-## Part 4: Uploading and running a program
+## Exercise 4: Uploading and running a program
 
 ### Open the program "Blink"
 In this exercise, you are going to upload your first program to the Arduino. For this case, we'll use one of the example programs that come with the Arduino IDE.
@@ -89,7 +89,7 @@ What is happening on your Arduino board
   - If the error occurred when uploading (i.e. a connection couldn't be made between the computer and the Arduino), the status window will read: *An error occurred while uploading the sketch*. 
   - If the error occurred when compiling the code (i.e. there's something wrong with your code), the status window will provide an error message, and the problematic line will be highlighted in the sketch. 
 
-## Part 5: Understanding an Arduino sketch
+## Exercise 5: Understanding an Arduino sketch
 The blink sketch provides a good opportunity to explore the three fundamental elements of an Arduino sketch. 
 
 ### The commented preface
@@ -152,13 +152,13 @@ As also indicated in the preceding comment, the loop function will run repeatedl
 #### Q2:
 - What instructions are each of these lines providing to the Arduino board?
 
-## Part 6: Modifying a sketch
+## Exercise 6: Modifying a sketch
 Modify the Blink code so that the onboard LED blinks at a different frequency. **Remember** to save your code and upload it to the Arduino after you've modified it.
 
 - How fast can you make it blink? 
 - Can you make it blink at always-differing intervals? 
 
-## Part 7: Inserting an LED
+## Exercise 7: Inserting an LED
 If you recall from earlier, the on-board LED (indicated by ```LED_BUILTIN``` in the Arduino code) is also connected to digital pin 13 on your Arduino board. You can connect an LED to this pin in a circuit by connecting one leg to digital pin 13 and the other to the adjacent pin labeled **GND**.
 - The **GND** is the *ground* connection of the circuit. Circuits require a higher- and lower-voltage connection to permit current to pass through it. The ground pin often serves this purpose. In this case, digital pin 13 serves as the higher-voltage connection, and current flows from pin 13, through the LED and toward GND. 
 - Try connnecting one of your standard (two-legged) LEDs. If it doesn't work, turn it around and connect it the other way. 
@@ -172,7 +172,7 @@ If you recall from earlier, the on-board LED (indicated by ```LED_BUILTIN``` in 
 
 ![Image of LED](images/led.png "LED: Anode and Cathode")
 
-## Part 8: Reviewing our circuit
+## Exercise 8: Reviewing our circuit
 So, you may be asking yourself at this point: *"Is that the proper way to connect that LED?"*. This is an excellent question. To find the answer:
 - Navigate to the [Arduino tutorial page for Blink](https://www.arduino.cc/en/Tutorial/Blink) (which is provided in the comments of the Blink code)
 - Note the hardware required
@@ -206,7 +206,7 @@ Identify all of the 10 Kohm resistors in your kit
 Use the colour code chart to identify the resistance of the other resistors in your kit (hint: the rest all have the same resistance and all use a 4-band colour code).
 - ***Hint:*** Use a resistor colour code calculator like [this](https://www.digikey.ca/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band) to assess your answer. These kind of calculators are useful when you have a resistor in hand (i.e. you know the colour code), and need to know its resistance.
 
-## Part 9: Building a proper circuit
+## Exercise 9: Building a proper circuit
 Now that you've properly identified the resistor you need for this circuit, how are you going to connect the pieces?
 - You could attempt to twist the wires together, but you might break something and it won't be very reliable
 - You could solder the pieces together, but we're just experimenting here. 
@@ -234,24 +234,28 @@ If you are unsure of how to connect items in your circuit:
 - Try to trace the flow of current through your circuit from digital pin 13 to GND. Is there an opportunity for the current to avoid flowing through the LED? 
 - Remember that any two (or more) items inserted into a connected row are all connected to each other at the same time--if you have all of your wires and LED legs plugged into a single row, the current will divert around your LED and flow straight from pin 13 to GND. Turn your LED 90 degrees (so legs are in differnt rows) and try again to connect the circuit.
 
-## Part 10: Using a button
+## Exercise 10: Using a button
 In this example, you'll use a button to turn your LED on (when pushed) and off (when not pushed).
+
+#### Notes 1:
+1. This example uses the on-board LED at pin 13. If you'd like, leave your LED circuit wired into the breadboard from the Blink example--it'll light up when you push the button. 
+2. **How the button works**: The opposing legs of a button are connected to each other internally. When the button is not pushed in, the two sets of legs are not connected to each other. When the button is pushed, a metal gate closes to connect the two legs together, allowing current to flow from left to right across the button
+![Arduino Button](images/button.png "Arduino Button")
 
 #### Your tasks: 
 - Open the Button sketch from the Arduino IDE at >File>Examples>0.2Digital> and click on **Button**
 - Navigate to the Arduino [Button tutorial page](https://www.arduino.cc/en/Tutorial/Button) to find the hardware requirements and circuit diagram.
-- Take a close look at the code, and try to make sense of the code.
+- Take a close look at the code, and try to make sense of it.
+- Complete the circuit wiring and upload the code to the Arduino.
+- Verify that it works as desired. 
 
-#### Notes
-1. This example uses the on-board LED at pin 13. If you'd like, leave your LED circuit wired into the breadboard from the Blink example--it'll light up when you push the button. 
-2. **How the button works**: The opposing legs of a button are connected to each other internally. When the button is not pushed in, the two sets of legs are not connected to each other. When the button is pushed, a metal gate closes to connect the two legs together, allowing current to flow from left to right across the button
-![Arduino Button](images/button.png "Arduino Button")
-3. The 10K resistor serves as a pull-down resistor in this example, as it ensures that digital pin 2 is kept at LOW when the button is not pressed. Otherwise, the input may 'float', returning LOW and HIGH randomly, causing the LED to also blink randomly.  
-4. This example declares both constants (values that won't change) and variables (values that may). 
+#### Notes 2:
+1. The 10K resistor serves as a pull-down resistor in this example, as it ensures that digital pin 2 is kept at LOW when the button is not pressed. Otherwise, the input may 'float', returning LOW and HIGH randomly, causing the LED to also blink randomly.  
+2. This example declares both constants (values that won't change) and variables (values that may). 
   - The line ```const int buttonPin = 2;``` creates a constant (*const*) named *buttonPin* that is an integer (*int*, as opposed to other types--see [here](https://www.arduino.cc/en/Reference/VariableDeclaration) for more information), which has a value of 2. 
   - The line  ```int buttonState = 0;``` creates a variable named *buttonState* that is an integer with an initial value of 0.
-5. In the line ```buttonState = digitalRead(buttonPin);```, the function *digitalRead* is used to read the state of the button on pin 2 (which is the value of buttonPin). The result (HIGH or LOW) is saved to the variable *buttonState*. 
-6. An *if* statement is used to control the output on the ledPin (digital pin 13) depending on the value of *buttonState*.
+3. In the line ```buttonState = digitalRead(buttonPin);```, the function *digitalRead* is used to read the state of the button on pin 2 (which is the value of buttonPin). The result (HIGH or LOW) is saved to the variable *buttonState*. 
+4. An *if* statement is used to control the output on the ledPin (digital pin 13) depending on the value of *buttonState*.
   - An if statement takes the general form: 
 ```
 if (condition1) {
@@ -266,99 +270,10 @@ else {
 ```
 See the [Arduino if-else reference guide](https://www.arduino.cc/reference/en/language/structure/control-structure/else/) for more information. 
 
-## Part 11: Using a potentiometer
-In this example, you'll use a potentiometer (dial) to control the brightness of your LED. 
-
-#### Your tasks:
-- Open the AnalogInOutSerial sketch from the Arduino IDE at >File>Examples>03.Analog> and click on **AnalogInOutSerial**
-- Navigate to the Arduino [AnalogInOutSerial tutorial page](https://www.arduino.cc/en/Tutorial/AnalogInOutSerial) to find the hardware requirements and circuit diagram. **Note** that you'll need to connect your circuit using the solderless breadboard.
-- Once you've connected your circuit and succesfully uploaded your code, open up the serial monitor on the top-right of the IDE. 
-- Adjust (turn) the potentiometer and observe the changes to the LED, as well as the output in the Serial Monitor.
-
-#### Notes
-1. In this example, the LED is connected to digital pin 9, which is one of six **pulse width modulation (PWM)** digital pins on the Arduino (denoted with a **"~"** symbol on the board). PWM allows a digital output (which is either LOW = OFF or HIGH = ON) to simulate an analog signal (which can assume any value between LOW and HIGH). The command ```analogWrite``` is used instead of *digitalWrite* in this case, since we're writing an analog value to pin 9.
-![Analog vs. Digital Signals](images/analog-digital.png "Analog vs. Digital Signals")
-2. The map function is very useful for scaling the range of one variable to another range. In this example, the analog signal (from the potentiometer) ranges between 0 and 1023, while the acceptable output range for the LED is 0 to 255. The map function proportionally scales the potentimeter value to a usable value for the LED. 
-3. In this example, you've used the Serial Console to establish and carry out serial communication between the Arduino and the computer. The setup function line ```Serial.begin(9600);``` establishes the connection, and the input argument (9600) in this case, determines the rate of information transfer, also known as the *baud* rate (9600 kilobits per second in this case). Clicking the dropdown on the bottom-right of the Serial Console displays the different baud rates that can be used. Note that the baud rate stated in the code needs to match that set in the Serial Console to receive intelligible output.
-4. In some cases (or at least on my Windows 10 laptop), the Serial Console won't appear on the screen when you click it. If this happens, you should be able to fix it by maximizing it in the explorer bar.
-![Maximizing the serial console](images/fix-serial-monitor.png "Maximizing the serial console")
+## Getting familiar with GitHub, markdown, GitHub pages
 
 
-## Part 12: Potentiometer out, photoresistor in
-In this example, we’re going to start with the code and wiring used in the previous example, but replace the potentimeter with a photoresistor. The point of this is to demonstrate how both components can be used as control devices by providing variable resistances. This exercise will require you to merge the existing wiring and code from the [AnalogInOutSerial](https://www.arduino.cc/en/Tutorial/AnalogInOutSerial) example, and merge in elements of the [AnalogInput](https://www.arduino.cc/en/Tutorial/AnalogInput) example (namely, the photoresistor example). 
-
-#### Your tasks:
-- Use >File>Save As... to save a copy of the AnalogInOutSerial code to a new sketch file in your local working directory. Name the sketch with somethign descriptive. Use this code as the basis for this example. Upload it to the Arduino.
-- Remove the wiring for the potentiometer, and replace it with the wiring shown for the photoresistor on the [AnalogInput](https://www.arduino.cc/en/Tutorial/AnalogInput) information webpage. 
-- Once you have wired it properly (using the Serial Monitor to confirm), experiment with changing light levels on the photoresistor (using a bright light / covering it with your finger, etc.). Observe the results in the Serial Console (i.e. the range of input values from the photoresistor and the corresponding output values for the LED). Do the values span close to the entire ranges for these devices (0 to 1023 for the photoresistor and 0 to 255 for the LED)? 
-  - If not, modify the **map** function in your code so that the LED brightness ranges from off to full brightness. 
-
-#### Notes
-1. Be sure to save your changes and re-upload the program as you make changes!
-2. Notice in this example that the **5V** and **GND** pins of the Arduino are connected to the outside 'rails' of the breadboard, and that these rails are used to connect to the device. Given that the rails are connected down an entire column, this approach can be helpful when you need to connect more devices to **5V** and **GND** pins than are available.
- 
-![AnalogInput Circuit Diagram](images/analog-input.png "AnalogInput Circuit Diagram")
-
-
-
-## Part 13: Connecting an RGB LED
-Here, you'll be connecting an RGB LED to the Arduino, using a guide that has been provided by Adafruit--a company that provides a wide range of DIY electronics and tutorials. 
-
-#### Notes:
-- An RGB LED contains three LEDs (red, green, and blue) integrated into a single casing. By controlling the brightness of each colour (using PWM), it's possible to create a wide variety of colours. Three of the LED legs correspond to one of these LEDs; depending on which time of RGB LED is being used (common anode vs common cathode), the fourth leg connects to either HIGH (5V) or LOW (GND):
-  - For common anode RGB LEDs, the longest leg connects to HIGH (5V), and each of the shorter legs act as cathodes. 
-  - For common cathode RGB LEDs, the longest leg connects to LOW (GND), and each of the shorter legs act as anodes.  
-
-#### Your tasks:
-**PLEASE ASSUME YOU ARE USING A COMMON ANODE RGB LED AND FOLLOW INSTRUCTIONS ACCORDINGLY**
-- Create a new sketch. Delete all of the code so that you have a blank sketch
-- Follow along with the instructions provided on the [Adafruit Learn webpage](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/breadboard-layout) to connect the RGB LED to the Arduino via the breadboard.   
-- Use the *Copy Code* button to copy the code provided on the [Arduino Sketch page](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/arduino-sketch) to the clipboard and paste it into your sketch. Straight copying and pasting from the webpage may cause some stray html characters to end up in your sketch and cause it to fail when compiling. Save the sketch with an appropriate filename.
-  - Read through the code and try to understand how it works.
-- As per the instructions, be sure to connect the longest leg to 5V power, and uncomment the line ```\\#define COMMON_ANODE``` by removing the ``\\`` characters to leave ```#define COMMON_ANODE```.
-- Once the circuit has been wired properly, the code has been uploaded and the RGB LED is working, review the order of colours with what is detailed in the sketch. 
-
-#### If the order of colours does not match what is expected
-- Double-check your wiring. Make sure that the proper LED pins are connected to the proper Arduino pins.
-- Ensure that you've uncomented the ```#define COMMON_ANODE``` line and uploaded the most recent version to the Arduino
-- If these steps don't address the issue, investigate if you have a common cathode RGB LED by: 
-  - Wiring the longest leg to **GND** instead of **5V**
-  - Recommenting the ```#define COMMON_ANODE``` so that it appears as ```//#define COMMON_ANODE```
-
-## Part 14: An RGB LED thermometer
-**This is your final training task!**  
-In this example, your task is to use a thermistor to sense the temperature of your room (or your hand, or whatever), and have the RGB LED change its colour depending on the value. You'll need to merge the wiring and code from the previous example with those for a thermistor. In the steps below, we'll connect the thermistor first and then move code from the thermistor sketch into the RGB LED one. 
-
-#### Your tasks:
-- Keep your RGB LED wired as it was in the previous example.
-- Open a new sketch and remove all of the default code. Keep the sketch from the last example handy, as well. You'll need it.
-- Go to [this Thermistor example webpage](https://playground.arduino.cc/ComponentLib/Thermistor2/)
-  - Wire the thermistor into the breadboard according to what's outlined under the **Thermistor Test Schematic** heading. Note that this schematic looks a little different than you're used to. It may take a few minutes to figure out what's being described.
-    - **NOTE**: that in this example, you have to connect more than one component to **5V**, but there is only one **5V** pin available. Use jumpers to connect the **5V** and **GND** pins of the Arduino to the two separate rails, and then connect the RGB LED and thermistor to the appropriate rail using jumpers.
-  - Copy the code provided beneath the **The Elaborate Code (cleaned up a bit)** heading and paste it into your blank sketch (be sure not to copy over any text outside of the code box). Review the code and attempt to understand how it works.
-    - Notice that this sketch uses an additional function (called *Thermistor*), which takes the raw current reading, converts it to temperature in Celsius, and returns the value as a floating point number. This function is called within the loop function. 
-- Save your sketch and upload it to the Arduino
-- If the upload works, open up your Serial Monitor to inspect the temperatures being returned to the screen. **NOTE** that the baud rate needs to be changed in the Serial Console window to 115200, in order to correspond with the rate set in the setup function (```Serial.begin(115200);```).
-  - Test the thermistor at different temperatures by touching it with your warmed-up hand, an ice pack, etc. Confirm that temperature changes in an expected manner. 
-- Once you're confident that your thermistor is working, your task is to merge the relevant code from the thermistor example into the previous RGB LED code. 
-  - Be sure to move pieces into the proper locations of the RGB LED script
-    - lines before the setup function should be moved to above the setup function in the RGB LED script.
-	- lines from the setup function should be moved into the setup function in the RGB LED script.
-    - lines from the loop function should be moved into the loop function in the RGB LED script.
-  - Note that you want only one setup and loop function in the final script.
-- Next, you will want to replace the original content from the RGB LED loop function with code that will change the LED colour based on the value of temperature. There are likely many ways to accomplish this, but the most straightforward way is probably to use an [if/elseif/else](https://www.arduino.cc/reference/en/language/structure/control-structure/else/) statement. 
-
-<br>
-
-#### Finishing up
-Once you've completed your circuit: 
-- Save your sketch and upload it to your GitHub repository. 
-- Complete the **Day 2: Results** section in your project page (/docs/index.md) of your GitHub repository.
-
-
-
-
-
+## Wrapping up Day 1. 
 
 [BACK TO MAIN PAGE](index.md)
 
