@@ -13,7 +13,7 @@ This is the main landing page for your module. Below you will find links to page
 <br>
 -->
 
-# Module Outline
+# Module outline
 Copies of your module outline will be provided in your project repository, but you can also find it as a [webpage here](eru-outline.md) or a [PDF](eru-outline.pdf).
 
 

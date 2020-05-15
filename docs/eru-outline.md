@@ -22,6 +22,13 @@ Through participation in the course, students will develop a number of knowledge
 ## Module structure and schedule: 
 Students will be required to work approximately 3 hours per day for four consecutive days (May 19 to May 22). Working time will be split between synchronous classwork, synchronous groupwork, and asynchronous independent work. The instructor will be available for consultation during all working periods, regardless of whether synchronous activities are taking place. 
 
+The module will be delivered using a variety of different modes. All synchronous sessions will be carried out using MS Teams (Jay has added (or will soon add) you to a Team). Following the opening class, most work can be done asynchronously (using prepared guides and videos), though it is still expected that you participate in the group support sessions.
+- Asynchronous working time: Using prepared guides and videos to complete the lessons
+- Synchronous sessions:
+  - Synchronous lessons with Jay: Meeting on the “General” channel of our Team
+  - Synchronous support time with Jay: Meeting on the “General” channel of our Team
+  - Synchronous group support time: Meeting in your group’s channel of our Team
+
 ![Module Schedule](images/schedule.png "Module Schedule")
 
 ## Equipment and software required:
@@ -42,7 +49,7 @@ All deliverables will be compiled in a GitHub repository that you will create fo
 |Final reflection & summary| 15% |Completed on Day 4|
 |Overall project webpage quality|10%|       |
 
-## Instructor Biography:
-In his day job, Jay Brodeur is the Associate Director of Digital Scholarship Services in the McMaster University Library, where he oversees a variety of services that support research and instruction at McMaster. His background is in the Environmental Sciences, and his research interests include climate change, GIS and geomatics, and data management. When he can, Jay also enjoys teaching; he regularly teaches in the iSci program, and has been fortunate to instruct courses in the Faculties of Science, Social Sciences, and Humanities, as well as the Arts & Science Program. 
+## Instructor biography:
+In his day job, [Jay Brodeur](https://experts.mcmaster.ca/display/brodeujj) is the Associate Director of Digital Scholarship Services in the McMaster University Library, where he oversees a variety of services that support research and instruction at McMaster. His background is in the Environmental Sciences, and his research interests include climate change, GIS and geomatics, and data management. When he can, Jay also enjoys teaching; he regularly teaches in the iSci program, and has been fortunate to instruct courses in the Faculties of Science, Social Sciences, and Humanities, as well as the Arts & Science Program. 
 
 
