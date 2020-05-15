@@ -17,7 +17,7 @@ This is the main landing page for your module. Below you will find links to page
 Please complete the tasks outlined [here](eru-setup.md) prior to the initial class.
 
 # Daily worksheets:
-Day 1 - *coming soon*
-Day 2 - *coming soon*
-Day 3 - *coming soon*
-Day 4 - *coming soon*
+Day 1 - *coming soon*  
+Day 2 - *coming soon*  
+Day 3 - *coming soon*  
+Day 4 - *coming soon*  

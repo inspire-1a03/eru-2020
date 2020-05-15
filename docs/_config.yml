@@ -5,8 +5,11 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - lesson1.md
-  - lesson2.md
+  - eru-2020.md
+  - eru-day1.md
+  - eru-day2.md
+  - eru-day3.md
+  - eru-day4.md
 
 title: Electronics for the Rest of Us!
 description: Jay Brodeur | INSPIRE 1A03 | Spring, 2020
