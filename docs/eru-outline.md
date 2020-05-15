@@ -1,3 +1,9 @@
+---
+title: ERU | Outline
+---
+
+[BACK TO MAIN PAGE](index.md)
+
 # ERU - Module Outline
 
 **Instructor**: Jay Brodeur  

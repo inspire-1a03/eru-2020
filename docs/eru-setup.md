@@ -1,4 +1,9 @@
 # ERU - Pre-module setup
+---
+title: ERU | Setup 
+---
+
+[BACK TO MAIN PAGE](index.md)
 
 Hello, everyone and thanks for enrolling in **Electronics for the Rest of Us!**. I'm looking forward to working with you all over the next week or so. 
 

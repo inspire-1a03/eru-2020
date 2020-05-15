@@ -1,3 +1,9 @@
+---
+title: ERU | Day 1 
+---
+
+[BACK TO MAIN PAGE](index.md)
+
 # ERU - Day 1 Worksheet
 
 **Welcome to Electronics for the Rest of Us!**  
