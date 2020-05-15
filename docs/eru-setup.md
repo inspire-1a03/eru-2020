@@ -11,7 +11,7 @@ You're asked to complete the following steps:
     - If you have a Chromebook that you need to use, contact Jay via Avenue to Learn so that we can test the web editor for your purposes.
   - Install the IDE on your computer.
 3. If you don't already have one, create a GitHub account at [https://github.com/](https://github.com/). We'll be using GitHub to share and store files, and to host your final project website using [GitHub Pages](https://pages.github.com/).
-4. Once you've created and verified your GitHub account, follow [this link]() to create the repository that you'll use for the module. 
+4. Once you've created and verified your GitHub account, follow [this link](https://classroom.github.com/a/zuDd-h3v) to create the repository that you'll use for the module. 
 
 If you experience difficulties at any point, please contact Jay through Avenue to Learn.
  
