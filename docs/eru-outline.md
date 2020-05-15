@@ -34,6 +34,16 @@ Students will require the following equipment to participate in the course:
 ## Assessment and module deliverables
 All deliverables will be compiled in a GitHub repository that you will create for this module. You will upload a number of Ardunio sketches (code), and a few images that document your work. Descriptions of your work, and reflections on your progress will be compiled within a single [Markdown](https://en.wikipedia.org/wiki/Markdown) document that includes images and video of your final device. [GitHub Pages](https://pages.github.com/) will be used to turn your markdown document to a simple project webpage. 
 
+| Deliverable | Weight | Notes |
+|-------------|-------:|-------|
+|             |        |Started on Day 1; Completed on Day 2|
+|             |        |       |
+|             |        |       |
+|             |        |       |
+|             |        |       |
+|             |        |       |
+
+
 ## Instructor Biography:
 In his day job, Jay Brodeur is the Associate Director of Digital Scholarship Services in the McMaster University Library, where he oversees a variety of services that support research and instruction at McMaster. His background is in the Environmental Sciences, and his research interests include climate change, GIS and geomatics, and data management. When he can, Jay also enjoys teaching; he regularly teaches in the iSci program, and has been fortunate to instruct courses in the Faculties of Science, Social Sciences, and Humanities, as well as the Arts & Science Program. 
 
