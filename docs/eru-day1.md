@@ -1,10 +1,10 @@
 ---
-title: ERU | Day 1 
+title: ERU | Day 1 & 2
 ---
 
 [BACK TO MAIN PAGE](index.md)
 
-# ERU - Day 1 Worksheet
+# ERU - Day 1 & 2 Worksheet
 
 **Welcome to Electronics for the Rest of Us!**  
 <br>
@@ -279,11 +279,34 @@ In this example, you'll use a potentiometer (dial) to control the brightness of 
 
 
 ## Part 12: Potentiometer out, photoresistor in
-In this example, we’re going to work from the code and wiring from the previous example, and replace the potentimeter with a photoresistor. The point of this is to demonstrate how both of these items can be used as control devices by providing variable resistance. 
+In this example, we’re going to start with the code and wiring used in the previous example, but replace the potentimeter with a photoresistor. The point of this is to demonstrate how both components can be used as control devices by providing variable resistances. This exercise will require you to merge the existing wiring and code from the [AnalogInOutSerial](https://www.arduino.cc/en/Tutorial/AnalogInOutSerial) example, and merge in elements of the [AnalogInput](https://www.arduino.cc/en/Tutorial/AnalogInput) example (namely, the photoresistor example). 
 
 #### Your tasks:
+- Use >File>Save As... to save a copy of the AnalogInOutSerial code to a new sketch file in your local working directory. Name the sketch with somethign descriptive. Use this code as the basis for this example. Upload it to the Arduino.
+- Remove the wiring for the potentiometer, and replace it with the wiring shown for the photoresistor on the [AnalogInput](https://www.arduino.cc/en/Tutorial/AnalogInput) information webpage. 
+- Once you have wired it properly (using the Serial Monitor to confirm), experiment with changing light levels on the photoresistor (using a bright light / covering it with your finger, etc.). Observe the results in the Serial Console (i.e. the range of input values from the photoresistor and the corresponding output values for the LED). Do the values span close to the entire ranges for these devices (0 to 1023 for the photoresistor and 0 to 255 for the LED)? 
+  - If not, modify the **map** function in your code so that the LED brightness ranges from off to full brightness. 
 
 #### Notes
+1. Be sure to save your changes and re-upload the program as you make changes!
+
+## Part 13: Connecting an RGB LED
+Here, you'll be connecting an RGB LED to the Arduino, using a guide that has been provided by Adafruit--a company that provides a wide range of DIY electronics and tutorials. 
+
+#### Notes:
+- An RGB LED contains three LEDs (red, green, and blue) integrated into a single casing. By controlling the brightness of each colour (using PWM), it's possible to create a wide variety of colours. Three of the LED legs correspond to one of these LEDs; depending on which time of RGB LED is being used (common anode vs common cathode), the fourth leg connects to either HIGH (5V) or LOW (GND):
+  - For common anode RGB LEDs, the longest leg connects to HIGH (5V), and each of the shorter legs act as cathodes. 
+  - For common cathode RGB LEDs, the longest leg connects to LOW (GND), and each of the shorter legs act as anodes.  
+
+#### Tasks:
+**PLEASE ASSUME YOU ARE USING A COMMON ANODE RGB LED AND FOLLOW INSTRUCTIONS ACCORDINGLY**
+- Create a new sketch. Delete all of the code so that you have a blank sketch
+- Follow along with the instructions provided on the [Adafruit Learn webpage](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/breadboard-layout) to connect the RGB LED to the Arduino via the breadboard.   
+- Use the *Copy Code* button to copy the code provided on the [Arduino Sketch page](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/arduino-sketch) to the clipboard and paste it into your sketch. 
+  - Straight copying and pasting from the webpage may cause some stray html characters to end up in your sketch and cause it to fail when compiling.
+
+#### Notes
+
 
 
 [BACK TO MAIN PAGE](index.md)
