@@ -1,5 +1,5 @@
 ---
-title: ERU | Outline
+title: eru-outline
 ---
 
 [BACK TO MAIN PAGE](index.md)

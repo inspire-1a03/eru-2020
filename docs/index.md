@@ -20,8 +20,6 @@ Copies of your module outline will be provided in your project repository, but y
 # Pre-module setup 
 Please complete the tasks outlined [here](eru-setup.md) prior to the initial class.
 
-# Daily worksheets:
-Day 1 - *coming soon*  
-Day 2 - *coming soon*  
-Day 3 - *coming soon*  
-Day 4 - *coming soon*  
+# Worksheets:
+Days 1 & 2 - *coming soon*  
+Days 3 & 4 - *coming soon*

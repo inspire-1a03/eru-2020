@@ -1,5 +1,5 @@
 ---
-title: ERU | Setup 
+title: eru-setup 
 ---
 
 [BACK TO MAIN PAGE](index.md)
