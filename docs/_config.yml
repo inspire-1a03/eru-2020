@@ -6,6 +6,7 @@ relative_links:
   collections: true
 include:
   - eru-2020.md
+  - eru-outline.md
   - eru-day1.md
   - eru-day2.md
   - eru-day3.md

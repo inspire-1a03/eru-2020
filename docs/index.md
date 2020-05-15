@@ -13,6 +13,10 @@ This is the main landing page for your module. Below you will find links to page
 <br>
 -->
 
+# Module Outline
+Copies of your module outline will be provided in your project repository, but you can also find it as a [webpage] (eru-outline.md) or a [PDF](eru-outline.pdf).
+
+
 # Pre-module setup 
 Please complete the tasks outlined [here](eru-setup.md) prior to the initial class.
 
