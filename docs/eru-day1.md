@@ -302,8 +302,19 @@ Here, you'll be connecting an RGB LED to the Arduino, using a guide that has bee
 **PLEASE ASSUME YOU ARE USING A COMMON ANODE RGB LED AND FOLLOW INSTRUCTIONS ACCORDINGLY**
 - Create a new sketch. Delete all of the code so that you have a blank sketch
 - Follow along with the instructions provided on the [Adafruit Learn webpage](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/breadboard-layout) to connect the RGB LED to the Arduino via the breadboard.   
-- Use the *Copy Code* button to copy the code provided on the [Arduino Sketch page](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/arduino-sketch) to the clipboard and paste it into your sketch. 
-  - Straight copying and pasting from the webpage may cause some stray html characters to end up in your sketch and cause it to fail when compiling.
+- Use the *Copy Code* button to copy the code provided on the [Arduino Sketch page](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/arduino-sketch) to the clipboard and paste it into your sketch. Straight copying and pasting from the webpage may cause some stray html characters to end up in your sketch and cause it to fail when compiling.
+- As per the instructions, be sure to connect the longest leg to 5V power, and uncomment the line ```\\#define COMMON_ANODE``` by removing the ``\\`` characters to leave ```#define COMMON_ANODE```.
+- Once the circuit has been wired properly, the code has been uploaded and the RGB LED is working, review the order of colours with what is detailed in the sketch. 
+
+#### Notes
+**If the order of colours does not match what is expected**:
+- Double-check your wiring. Make sure that the proper LED pins are connected to the proper Arduino pins.
+- Ensure that you've uncomented the ```#define COMMON_ANODE``` line and uploaded the most recent version to the Arduino
+- If these steps don't address the issue, investigate if you have a common cathode RGB LED by: 
+  - Wiring the longest leg to **GND** instead of **5V**
+  - Recommenting the ```#define COMMON_ANODE``` so that it appears as ```//#define COMMON_ANODE```
+
+
 
 #### Notes
 
