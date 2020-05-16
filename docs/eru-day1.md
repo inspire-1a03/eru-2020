@@ -29,7 +29,7 @@ By the end of this module, you will be able to:
 
 The following introductory slideshow will be presented by Jay during the opening class. It provides an overview of the module, its components, expectations, and deliverables. 
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGF9iiknpFD8UbYc0AZwdgcNO8SvpcMJ73Y5ASyecBScyvJuylV-xTP95J_hA42YNe1FkxRFMuXxhE/embed?start=false&loop=true&delayms=15000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGF9iiknpFD8UbYc0AZwdgcNO8SvpcMJ73Y5ASyecBScyvJuylV-xTP95J_hA42YNe1FkxRFMuXxhE/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <br>
 [View slides in PDF format](slides.pdf)
@@ -40,7 +40,7 @@ The following introductory slideshow will be presented by Jay during the opening
 
 Follow along with this short presentation of the types of electronic components we'll be using in this module. Feel free to unpack your kit and check out the components.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmmHAFZtXujn8wWzg8aTdFP0gDFyNTXNqNNpOPwptnSYu_14RDOZCadPCjTX0ELT_yyDm-w6Qh6fWv/embed?start=false&loop=true&delayms=15000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmmHAFZtXujn8wWzg8aTdFP0gDFyNTXNqNNpOPwptnSYu_14RDOZCadPCjTX0ELT_yyDm-w6Qh6fWv/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 ## Exercise 3: Getting Started
@@ -272,6 +272,7 @@ See the [Arduino if-else reference guide](https://www.arduino.cc/reference/en/la
 
 ## Getting familiar with GitHub, markdown, GitHub pages
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS_OAbvhJsCaoWjW9PjGOIBpk0tO1Fi9vGMhiaKfHsC340OTUXjUbXyvMqtcVTgkT2COvU0gVpJTA3o/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Wrapping up Day 1. 
 
