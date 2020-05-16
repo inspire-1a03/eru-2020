@@ -46,14 +46,14 @@ Follow along with this short presentation of the types of electronic components 
 ## Exercise 3: Getting Started
 Now that you've unpacked your kit, it's time to plug in your Arduino and begin using it. 
 ### Physically connect the Arduino
-- The Arduino can use the USB port to communicate with your computer, as well as draw power from is. Use the USB cable provided to connect the Arduino to your computer's USB port. If done correctly, the on-board LED labeled "**ON**" should light up. If this doesn't work, disconnect and attempt again. 
-- Depending on what program was uploaded to your Arduino board last, you may or may not see the on-board LED lalebeled "**L**" light up or flash. Arduinos will run its uploaded program upon power-up, and will continue to do so until the *reset* button is pressed, the power is disconnected, or the board breaks. 
-  - Note that the on-board LED lalebeled "**L**" is connected to digital input/output (IO) pin number 13; if the current program provides instructions for current to be provided to pin 13, it'll be reflected in the on-board LED (whether or not anything is connected to digital pin 13. 
+- The Arduino can use the USB port to communicate with your computer, as well as draw power from is. Use the USB cable provided to connect the Arduino to your computer's USB port. If done correctly, the on-board LED labelled "**ON**" should light up. If this doesn't work, disconnect and attempt again. 
+- Depending on what program was uploaded to your Arduino board last, you may or may not see the on-board LED labelled "**L**" light up or flash. Arduinos will run its uploaded program upon power-up, and will continue to do so until the *reset* button is pressed, the power is disconnected, or the board breaks. 
+  - Note that the on-board LED labelled "**L**" is connected to digital input/output (IO) pin number 13; if the current program provides instructions for current to be provided to pin 13, it'll be reflected in the on-board LED (whether or not anything is connected to digital pin 13. 
   
 ### Open the Arduino IDE; Connect to the Arduino board
-Once your Arduino is physically connected to your computer, open up the Arduino IDE program. A new sketch window will appear. The sketch window contains a number of different areas, which are labeled below. You'll learn and use these functions througout the module.
+Once your Arduino is physically connected to your computer, open up the Arduino IDE program. A new sketch window will appear. The sketch window contains a number of different areas, which are labelled below. You'll learn and use these functions throughout the module.
 
-![Arduino IDE with parts labeled](images/arduino-ide.png "The Arduino IDE")
+![Arduino IDE with parts labelled](images/arduino-ide.png "The Arduino IDE")
 
 Depending on your operating system, your Arduino may or may not be connected via a serial port (which allows for communication between the computer and the Arduino). 
 - You can check the status of your connection by clicking on >Tools>Port. 
@@ -62,7 +62,7 @@ A physically connected Arduino should appear in the Serial Ports list as **COMX 
 
 ![Arduino IDE with Ports window showing](images/arduino-port1.png "Arduino IDE Ports list -- Arduino not connected")
 
-To establish the serial connection, click on the listed COM port that where the Arduino is connected. A checkmark should appear beside the port when a connection has been made.
+To establish the serial connection, click on the listed COM port that where the Arduino is connected. A check mark should appear beside the port when a connection has been made.
 ![Arduino IDE with Ports window showing](images/arduino-port2.png "Arduino IDE Ports list -- Arduino connected")
 
 ## Exercise 4: Uploading and running a program
@@ -76,7 +76,7 @@ In this exercise, you are going to upload your first program to the Arduino. For
 ### Upload "Blink" to the Arduino
 - Ensuring that the Arduino is connected (both physically and through the COM port), click the upload button. 
   - The status window should first indicate that it is *Compiling sketch*, and then indicate that it is *Uploading*.
-- If the upload was succesful, the status window will indicate *Done uploading*, and the info window will communicate the following (or similar):
+- If the upload was successful, the status window will indicate *Done uploading*, and the info window will communicate the following (or similar):
 ```
 Sketch uses 924 bytes (2%) of program storage space. Maximum is 32256 bytes.
 Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
@@ -134,7 +134,7 @@ third command;
 } // curly braces contain the commands at the top and bottom
 ```
 
-In this casee, there is no returned value (the term ```void``` is used to indicate this), the name of the function is *setup*, there are no input values (thus the empty parentheses), and there is only one command executed.
+In this case, there is no returned value (the term ```void``` is used to indicate this), the name of the function is *setup*, there are no input values (thus the empty parentheses), and there is only one command executed.
 
 #### Q1: 
 - In this example, the only command executed in the setup function is ```pinMode(LED_BUILTIN, OUTPUT);```. What does this line do? 
@@ -159,9 +159,9 @@ Modify the Blink code so that the onboard LED blinks at a different frequency. *
 - Can you make it blink at always-differing intervals? 
 
 ## Exercise 7: Inserting an LED
-If you recall from earlier, the on-board LED (indicated by ```LED_BUILTIN``` in the Arduino code) is also connected to digital pin 13 on your Arduino board. You can connect an LED to this pin in a circuit by connecting one leg to digital pin 13 and the other to the adjacent pin labeled **GND**.
+If you recall from earlier, the on-board LED (indicated by ```LED_BUILTIN``` in the Arduino code) is also connected to digital pin 13 on your Arduino board. You can connect an LED to this pin in a circuit by connecting one leg to digital pin 13 and the other to the adjacent pin labelled **GND**.
 - The **GND** is the *ground* connection of the circuit. Circuits require a higher- and lower-voltage connection to permit current to pass through it. The ground pin often serves this purpose. In this case, digital pin 13 serves as the higher-voltage connection, and current flows from pin 13, through the LED and toward GND. 
-- Try connnecting one of your standard (two-legged) LEDs. If it doesn't work, turn it around and connect it the other way. 
+- Try connecting one of your standard (two-legged) LEDs. If it doesn't work, turn it around and connect it the other way. 
 
 #### Question: 
 - What happened? Did it work in both directions? 
@@ -232,7 +232,7 @@ When you've succeeded, save your sketch to your local working folder with an app
 If you are unsure of how to connect items in your circuit:
 - Review the solderless breadboard diagram. 
 - Try to trace the flow of current through your circuit from digital pin 13 to GND. Is there an opportunity for the current to avoid flowing through the LED? 
-- Remember that any two (or more) items inserted into a connected row are all connected to each other at the same time--if you have all of your wires and LED legs plugged into a single row, the current will divert around your LED and flow straight from pin 13 to GND. Turn your LED 90 degrees (so legs are in differnt rows) and try again to connect the circuit.
+- Remember that any two (or more) items inserted into a connected row are all connected to each other at the same time--if you have all of your wires and LED legs plugged into a single row, the current will divert around your LED and flow straight from pin 13 to GND. Turn your LED 90 degrees (so legs are in different rows) and try again to connect the circuit.
 
 ## Exercise 10: Using a button
 In this example, you'll use a button to turn your LED on (when pushed) and off (when not pushed).
