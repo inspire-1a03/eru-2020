@@ -528,6 +528,7 @@ In this example, your task is to use a thermistor to sense the temperature of yo
 - Save your sketch to your working directory. 
 <br>
 <br>
+
 ## Part 6: Day 2 Wrap-up
 Once you've completed your RBG LED thermometer: 
 - Upload your saved sketch to the top-level directory of your GitHub repository. 
