@@ -261,6 +261,7 @@ In this example, you'll use a button to turn your LED on (when pushed) and off (
 - Take a close look at the code, and try to make sense of it.
 - Complete the circuit wiring and upload the code to the Arduino.
 - Verify that it works as desired. 
+- Take a photo of your completed device in action (*you'll use this with your first reflection*).
 
 #### Notes 2:
 1. The 10K resistor serves as a pull-down resistor in this example, as it ensures that digital pin 2 is kept at LOW when the button is not pressed. Otherwise, the input may 'float', returning LOW and HIGH randomly, causing the LED to also blink randomly.  
@@ -284,7 +285,7 @@ else {
 See the [Arduino if-else reference guide](https://www.arduino.cc/reference/en/language/structure/control-structure/else/) for more information. 
 <br>
 <br>
-# Part 3: Getting familiar with GitHub, Markdown, GitHub Pages (45 mins)
+# Part 3: Getting familiar with GitHub, Markdown, GitHub Pages (60 mins)
 In this part, you'll learn about and gain experience with the other pieces of technology that will be used in this module: GitHub, Markdown, GitHub Pages. Used together, these tools will allow you to: 
 - Document your work and store your code
 - Keep track of version changes to your documents and code; restore previous versions, if necessary
@@ -420,9 +421,20 @@ Now that you've been introduced to GitHub and markdown, it's time to create your
 - For easy reference, copy the URL to your webpage, and paste it into the description box in your top-level repository page by clicking *Edit* and pasting the URL into the *Website* box and clicking *Save*.
 ![Adding a website address to a repository](images/website-url-add.png "Adding a website address to a repository")
 
-## Upload a photo to your repository; link to it in your page
- 
+## Add your reflection text
+- Beneath the **Day 1:Reflection** heading, provide a ~250 word reflection on your first day of the module, and discuss why you're interested in this module and what you hope to take away from it.
 
+## Upload your photo to your module GitHub repository
+- Upload your photo of the device created in the **Button** example, to the ```/docs/images/``` folder of your module repository. 
+  - Navigate to the ```/docs/images``` folder and click the **Upload files** button. 
+![Upload files button](images/image-upload.png "Uploading files to the images folder")
+- Select the file and commit changes (directly to the ```master``` branch.
+
+## Insert your uploaded photo into the markdown file
+- Edit your ```index.md``` file to insert the image beneath your day 1 reflection text. When inserting the file, refer to its location in the ```/images``` folder. For example, if your uploaded image was named ```firstday.png``` your markdown code would look something like the following (though the description and title may be different): 
+```
+![A photo of an arduino circuit](images/firstday.png "Arduino Circuit from the Button Example")
+```
 <br>
 <br>
 # Part 5: Intermediate circuits (90 mins)
@@ -430,7 +442,7 @@ In the following examples, you'll build upon earlier work to create increasingly
 <br>
 <br>
 ## > Exercise 14: Using a potentiometer
-In this example, you'll use a potentiometer (dial) to control the brightness of your LED. 
+In this example, you'll use a potentiometer (the blue turn dial) to control the brightness of your LED. 
 
 #### Your tasks:
 - Open the AnalogInOutSerial sketch from the Arduino IDE at >File>Examples>03.Analog> and click on **AnalogInOutSerial**
