@@ -5,7 +5,8 @@ title: eru-day1-2
 [BACK TO MAIN PAGE](index.md)
 
 # ERU - Day 1 & 2 Worksheet
-
+Worksheets for the first two days of Electronics for the Rest of Us.
+<br>
 # Part 1: Introduction (30 mins)
 
 **Welcome to Electronics for the Rest of Us!**  
@@ -162,10 +163,12 @@ As also indicated in the preceding comment, the loop function will run repeatedl
 <br>
 <br>
 ## > Exercise 4: Modifying a sketch
+#### Your tasks:
 Modify the Blink code so that the onboard LED blinks at a different frequency. **Remember** to save your code and upload it to the Arduino after you've modified it.
-
 - How fast can you make it blink? 
 - Can you make it blink at always-differing intervals? 
+When you've finished, save your sketch (using a relevant name) to your computer
+- **TIP**: You will probably be prompted to save your sketch to a default folder called **Arduino** (or something similar). It's fine to save your sketches here or in some other directory--it's really your preference. BUT, be sure to be consistent with the working folder/directory that you use throughout this module. Otherwise, you may forget where things are. 
 <br>
 <br>
 ## > Exercise 5: Inserting an LED
@@ -404,7 +407,7 @@ For more information and references for Markdown, refer to:
 - [Daring Fireball's Markdown Introduction](https://daringfireball.net/projects/markdown/)
 <br>
 <br>
-# > Part 4: Day 1 Wrap-Up (30 mins).
+# Part 4: Day 1 Wrap-Up (30 mins).
 Now that you've been introduced to GitHub and markdown, it's time to create your first website with GitHub Pages, and add an image and text for your day 1 reflection. 
 
 ## Turn your module repository into a webpage 
@@ -457,9 +460,9 @@ In this example, you'll use a potentiometer (the blue turn dial) to control the 
 3. In this example, you've used the Serial Console to establish and carry out serial communication between the Arduino and the computer. The setup function line ```Serial.begin(9600);``` establishes the connection, and the input argument (9600) in this case, determines the rate of information transfer, also known as the *baud* rate (9600 kilobits per second in this case). Clicking the drop-down on the bottom-right of the Serial Console displays the different baud rates that can be used. Note that the baud rate stated in the code needs to match that set in the Serial Console to receive intelligible output.
 4. In some cases (or at least on my Windows 10 laptop), the Serial Console won't appear on the screen when you click it. If this happens, you should be able to fix it by maximizing it in the explorer bar.
 ![Maximizing the serial console](images/fix-serial-monitor.png "Maximizing the serial console")
-
-
-## Exercise 15: Potentiometer out, photoresistor in
+<br>
+<br>
+## > Exercise 15: Potentiometer out, photoresistor in
 In this example, we’re going to start with the code and wiring used in the previous example, but replace the potentiometer with a photoresistor. The point of this is to demonstrate how both components can be used as control devices by providing variable resistances. This exercise will require you to merge the existing wiring and code from the [AnalogInOutSerial](https://www.arduino.cc/en/Tutorial/AnalogInOutSerial) example, and merge in elements of the [AnalogInput](https://www.arduino.cc/en/Tutorial/AnalogInput) example (namely, the photoresistor example). 
 
 #### Your tasks:
@@ -473,8 +476,9 @@ In this example, we’re going to start with the code and wiring used in the pre
 2. Notice in this example that the **5V** and **GND** pins of the Arduino are connected to the outside 'rails' of the breadboard, and that these rails are used to connect to the device. Given that the rails are connected down an entire column, this approach can be helpful when you need to connect more devices to **5V** and **GND** pins than are available.
  
 ![AnalogInput Circuit Diagram](images/analog-input.png "AnalogInput Circuit Diagram")
-
-## Exercise 16: Connecting an RGB LED
+<br>
+<br>
+## > Exercise 16: Connecting an RGB LED
 Here, you'll be connecting an RGB LED to the Arduino, using a guide that has been provided by Adafruit--a company that provides a wide range of DIY electronics and tutorials. 
 
 #### Notes:
@@ -498,8 +502,9 @@ Here, you'll be connecting an RGB LED to the Arduino, using a guide that has bee
 - If these steps don't address the issue, investigate if you have a common cathode RGB LED by: 
   - Wiring the longest leg to **GND** instead of **5V**
   - Re-commenting the ```#define COMMON_ANODE``` so that it appears as ```//#define COMMON_ANODE```
-
-## Exercise 17: An RGB LED thermometer (AKA your final training task!)
+<br>
+<br>
+## > Exercise 17: An RGB LED thermometer (AKA your final training task!)
 In this example, your task is to use a thermistor to sense the temperature of your room (or your hand, or whatever), and have the RGB LED change its colour depending on the value. You'll need to merge the wiring and code from the previous example with those for a thermistor. In the steps below, we'll connect the thermistor first and then move code from the thermistor sketch into the RGB LED one. 
 
 #### Your tasks:
@@ -520,59 +525,16 @@ In this example, your task is to use a thermistor to sense the temperature of yo
     - lines from the loop function should be moved into the loop function in the RGB LED script.
   - Note that you want only one setup and loop function in the final script.
 - Next, you will want to replace the original content from the RGB LED loop function with code that will change the LED colour based on the value of temperature. There are likely many ways to accomplish this, but the most straightforward way is probably to use an [if/elseif/else](https://www.arduino.cc/reference/en/language/structure/control-structure/else/) statement. 
-
+- Save your sketch to your working directory. 
 <br>
-
-## Finishing up
+<br>
+## Part 6: Day 2 Wrap-up
 Once you've completed your RBG LED thermometer: 
-- Save your sketch and upload it to your GitHub repository. 
+- Upload your saved sketch to the top-level directory of your GitHub repository. 
 - Complete the **Day 2: Results** section in your project page (/docs/index.md) of your GitHub repository.
-<br>
-<br>
-# Part 6: The Great Arduino Make-Off
 
+During the last hour of day 2, you'll be given an hour to chat with your breakout group peers to brainstorm ideas for your days 3 and 4 challenge: **The Great Arduino Make-Off**
+- Review the instructions provided in your [Day 3 and 4 instruction page](eru-day3-4.md)
+- Connect with your breakout group and discuss some ideas.
 
 [BACK TO MAIN PAGE](index.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
