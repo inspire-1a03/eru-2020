@@ -43,10 +43,11 @@ The following introductory slideshow will be presented by Jay during the opening
 Follow along with this short presentation of the types of electronic components we'll be using in this module. Feel free to unpack your kit and check out the components.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmmHAFZtXujn8wWzg8aTdFP0gDFyNTXNqNNpOPwptnSYu_14RDOZCadPCjTX0ELT_yyDm-w6Qh6fWv/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+<br>
+<br>
 # Part 2: Getting started with Arduinos (75 mins)
-
-## Exercise 1: Physically connecting the Arduino to your computer
+<br>
+## > Exercise 1: Physically connecting the Arduino to your computer
 Now that you've unpacked your kit, it's time to plug in your Arduino and begin using it. 
 
 #### Notes: 
@@ -68,8 +69,9 @@ A physically connected Arduino should appear in the Serial Ports list as **COMX 
 
 To establish the serial connection, click on the listed COM port that where the Arduino is connected. A check mark should appear beside the port when a connection has been made.
 ![Arduino IDE with Ports window showing](images/arduino-port2.png "Arduino IDE Ports list -- Arduino connected")
-
-## Exercise 2: Uploading and running a program
+<br>
+<br>
+## > Exercise 2: Uploading and running a program
 In this exercise, you are going to upload your first program to the Arduino. For this case, we'll use one of the example programs that come with the Arduino IDE.
 
 ### Your tasks
@@ -93,8 +95,9 @@ What is happening on your Arduino board
 - If an error occurs, the status window will provide a general error message, and the info window will give additional information on it (you may need to scroll to see it). 
   - If the error occurred when uploading (i.e. a connection couldn't be made between the computer and the Arduino), the status window will read: *An error occurred while uploading the sketch*. 
   - If the error occurred when compiling the code (i.e. there's something wrong with your code), the status window will provide an error message, and the problematic line will be highlighted in the sketch. 
-
-## Exercise 3: Understanding an Arduino sketch
+<br>
+<br>
+## > Exercise 3: Understanding an Arduino sketch
 The blink sketch provides a good opportunity to explore the three fundamental elements of an Arduino sketch. 
 
 ### Element 1: The commented preface
@@ -156,14 +159,16 @@ As also indicated in the preceding comment, the loop function will run repeatedl
 
 #### Q2:
 - What instructions are each of these lines providing to the Arduino board?
-
-## Exercise 4: Modifying a sketch
+<br>
+<br>
+## > Exercise 4: Modifying a sketch
 Modify the Blink code so that the onboard LED blinks at a different frequency. **Remember** to save your code and upload it to the Arduino after you've modified it.
 
 - How fast can you make it blink? 
 - Can you make it blink at always-differing intervals? 
-
-## Exercise 5: Inserting an LED
+<br>
+<br>
+## > Exercise 5: Inserting an LED
 If you recall from earlier, the on-board LED (indicated by ```LED_BUILTIN``` in the Arduino code) is also connected to digital pin 13 on your Arduino board. You can connect an LED to this pin in a circuit by connecting one leg to digital pin 13 and the other to the adjacent pin labelled **GND**.
 - The **GND** is the *ground* connection of the circuit. Circuits require a higher- and lower-voltage connection to permit current to pass through it. The ground pin often serves this purpose. In this case, digital pin 13 serves as the higher-voltage connection, and current flows from pin 13, through the LED and toward GND. 
 - Try connecting one of your standard (two-legged) LEDs. If it doesn't work, turn it around and connect it the other way. 
@@ -176,8 +181,9 @@ If you recall from earlier, the on-board LED (indicated by ```LED_BUILTIN``` in 
 - The anode and cathode can usually be identified with a couple of visual queues: The anode has a longer leg, and the cathode has a flattened plastic bottom brim. 
 
 ![Image of LED](images/led.png "LED: Anode and Cathode")
-
-## Exercise 6: Reviewing our circuit
+<br>
+<br>
+## > Exercise 6: Reviewing our circuit
 So, you may be asking yourself at this point: *"Is that the proper way to connect that LED?"*. This is an excellent question. To find the answer:
 - Navigate to the [Arduino tutorial page for Blink](https://www.arduino.cc/en/Tutorial/Blink) (which is provided in the comments of the Blink code)
 - Note the hardware required
@@ -210,8 +216,9 @@ Identify all of the 10 Kohm resistors in your kit
 #### Question 3
 Use the colour code chart to identify the resistance of the other resistors in your kit (hint: the rest all have the same resistance and all use a 4-band colour code).
 - ***Hint:*** Use a resistor colour code calculator like [this](https://www.digikey.ca/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band) to assess your answer. These kind of calculators are useful when you have a resistor in hand (i.e. you know the colour code), and need to know its resistance.
-
-## Exercise 7: Building a proper circuit
+<br>
+<br>
+## > Exercise 7: Building a proper circuit
 Now that you've properly identified the resistor you need for this circuit, how are you going to connect the pieces?
 - You could attempt to twist the wires together, but you might break something and it won't be very reliable
 - You could solder the pieces together, but we're just experimenting here. 
@@ -238,8 +245,9 @@ If you are unsure of how to connect items in your circuit:
 - Review the solderless breadboard diagram. 
 - Try to trace the flow of current through your circuit from digital pin 13 to GND. Is there an opportunity for the current to avoid flowing through the LED? 
 - Remember that any two (or more) items inserted into a connected row are all connected to each other at the same time--if you have all of your wires and LED legs plugged into a single row, the current will divert around your LED and flow straight from pin 13 to GND. Turn your LED 90 degrees (so legs are in different rows) and try again to connect the circuit.
-
-## Exercise 8: Using a button
+<br>
+<br>
+## > Exercise 8: Using a button
 In this example, you'll use a button to turn your LED on (when pushed) and off (when not pushed).
 
 #### Notes 1:
@@ -274,7 +282,8 @@ else {
 }
 ```
 See the [Arduino if-else reference guide](https://www.arduino.cc/reference/en/language/structure/control-structure/else/) for more information. 
-
+<br>
+<br>
 # Part 3: Getting familiar with GitHub, Markdown, GitHub Pages (45 mins)
 In this part, you'll learn about and gain experience with the other pieces of technology that will be used in this module: GitHub, Markdown, GitHub Pages. Used together, these tools will allow you to: 
 - Document your work and store your code
@@ -285,8 +294,9 @@ In this part, you'll learn about and gain experience with the other pieces of te
 Follow along with the slideshow for an introduction to these tools, and an explanation of how we'll use them: 
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS_OAbvhJsCaoWjW9PjGOIBpk0tO1Fi9vGMhiaKfHsC340OTUXjUbXyvMqtcVTgkT2COvU0gVpJTA3o/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-## Exercise 9: Create your own GitHub repository
+<br>
+<br>
+## > Exercise 9: Create your own GitHub repository
 In the exercises to follow, you'll create a GitHub repository for the purposes of learning how to use GitHub, Markdown, and GitHub pages.
 
 #### Your tasks:
@@ -300,8 +310,9 @@ In the exercises to follow, you'll create a GitHub repository for the purposes o
 
 #### Notes: 
 - Your README file is a plan text file (same as a .txt file), but the **.md** extension is used so that GitHub recognizes that the file uses markdown inside. One of the nice features of markdown files is that they are readable by almost any applications, since they are plain text files.
-
-## Exercise 10: Create a folder and a text file within it
+<br>
+<br>
+## > Exercise 10: Create a folder and a text file within it
 In this task, you'll create a folder that we'll need to initiate the webpage, and you'll learn how to create and edit files. 
 
 #### Your tasks:
@@ -312,8 +323,9 @@ Create a folder named ```docs``` in the top level of the repository. This is whe
 #### Notes:
 - To create a file, simply enter the desired name and file extension. 
 - To create a folder, you need to add a trailing slash (/) to the name, and you need to [create a file within the folder](https://github.com/KirstieJane/STEMMRoleModels/wiki/Creating-new-folders-in-GitHub-repository-via-the-browser), since empty folders aren't saved. You can always delete this file later.
-
-## Exercise 11: Edit your text file
+<br>
+<br>
+## > Exercise 11: Edit your text file
 
 #### Your tasks:
 - Click on the ```index.md``` file to open it in the file viewer page
@@ -327,8 +339,9 @@ Create a folder named ```docs``` in the top level of the repository. This is whe
   - (optional) Add a description, if desired
 - Click the **Commit changes** box to finalize your commit. Your changes will be represented in the file. 
 - If you'd like to better understand how GitHub keeps track of file changes and history, from the **index.md** file viewing page, explore the *Blame* and *History* buttons.
-
-## Exercise 12: Exploring repository features and settings; Configuring GitHub Pages
+<br>
+<br>
+## > Exercise 12: Exploring repository features and settings; Configuring GitHub Pages
 In this step, we'll explore some of the functionality available in a GitHub repository and show you how to get started with [GitHub Pages](https://help.github.com/en/github/working-with-github-pages/about-github-pages)
 
 #### Your Tasks:
@@ -343,8 +356,9 @@ In this step, we'll explore some of the functionality available in a GitHub repo
   - You may initially receive a 404 error, but after a minute, your website will appear with the content from ```index.md```
 Remember: By default, GitHub Pages expects at least one file in the ```docs``` folder named ```index.md```. This becomes the main (home) page for the webpage.
 **Now, it's time to add some content!**
-
-## Exercise 13: Creating content with Markdown
+<br>
+<br>
+## > Exercise 13: Creating content with Markdown
 One of the really nice things about GitHub and GitHub Pages is that you can use Markdown to format text on a webpage without the use (or knowledge!) of html code (though you can insert it if you need to!). This makes it really easy to create content. In this section, you'll learn a bit more about Markdown and how to use it to create formatted text. 
 
 ### What is Markdown? 
@@ -387,8 +401,9 @@ For more information and references for Markdown, refer to:
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) 
 - [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Daring Fireball's Markdown Introduction](https://daringfireball.net/projects/markdown/)
-
-# Part 4: Day 1 Wrap-Up (30 mins).
+<br>
+<br>
+# > Part 4: Day 1 Wrap-Up (30 mins).
 Now that you've been introduced to GitHub and markdown, it's time to create your first website with GitHub Pages, and add an image and text for your day 1 reflection. 
 
 ## Turn your module repository into a webpage 
@@ -408,10 +423,13 @@ Now that you've been introduced to GitHub and markdown, it's time to create your
 ## Upload a photo to your repository; link to it in your page
  
 
-
+<br>
+<br>
 # Part 5: Intermediate circuits (90 mins)
-
-## Exercise 9: Using a potentiometer
+In the following examples, you'll build upon earlier work to create increasingly complex circuits that require unique code to work. 
+<br>
+<br>
+## > Exercise 14: Using a potentiometer
 In this example, you'll use a potentiometer (dial) to control the brightness of your LED. 
 
 #### Your tasks:
@@ -429,7 +447,7 @@ In this example, you'll use a potentiometer (dial) to control the brightness of 
 ![Maximizing the serial console](images/fix-serial-monitor.png "Maximizing the serial console")
 
 
-## Exercise 10: Potentiometer out, photoresistor in
+## Exercise 15: Potentiometer out, photoresistor in
 In this example, we’re going to start with the code and wiring used in the previous example, but replace the potentiometer with a photoresistor. The point of this is to demonstrate how both components can be used as control devices by providing variable resistances. This exercise will require you to merge the existing wiring and code from the [AnalogInOutSerial](https://www.arduino.cc/en/Tutorial/AnalogInOutSerial) example, and merge in elements of the [AnalogInput](https://www.arduino.cc/en/Tutorial/AnalogInput) example (namely, the photoresistor example). 
 
 #### Your tasks:
@@ -444,7 +462,7 @@ In this example, we’re going to start with the code and wiring used in the pre
  
 ![AnalogInput Circuit Diagram](images/analog-input.png "AnalogInput Circuit Diagram")
 
-## Exercise 11: Connecting an RGB LED
+## Exercise 16: Connecting an RGB LED
 Here, you'll be connecting an RGB LED to the Arduino, using a guide that has been provided by Adafruit--a company that provides a wide range of DIY electronics and tutorials. 
 
 #### Notes:
@@ -469,7 +487,7 @@ Here, you'll be connecting an RGB LED to the Arduino, using a guide that has bee
   - Wiring the longest leg to **GND** instead of **5V**
   - Re-commenting the ```#define COMMON_ANODE``` so that it appears as ```//#define COMMON_ANODE```
 
-## Exercise 12: An RGB LED thermometer (AKA your final training task!)
+## Exercise 17: An RGB LED thermometer (AKA your final training task!)
 In this example, your task is to use a thermistor to sense the temperature of your room (or your hand, or whatever), and have the RGB LED change its colour depending on the value. You'll need to merge the wiring and code from the previous example with those for a thermistor. In the steps below, we'll connect the thermistor first and then move code from the thermistor sketch into the RGB LED one. 
 
 #### Your tasks:
@@ -497,7 +515,8 @@ In this example, your task is to use a thermistor to sense the temperature of yo
 Once you've completed your RBG LED thermometer: 
 - Save your sketch and upload it to your GitHub repository. 
 - Complete the **Day 2: Results** section in your project page (/docs/index.md) of your GitHub repository.
-
+<br>
+<br>
 # Part 6: The Great Arduino Make-Off
 
 
