@@ -168,7 +168,7 @@ As also indicated in the preceding comment, the loop function will run repeatedl
 <br>
 <br>
 
-## > Exercise 4: Modifying a sketch
+## Exercise 4: Modifying a sketch
 #### Your tasks:
 Modify the Blink code so that the onboard LED blinks at a different frequency. **Remember** to save your code and upload it to the Arduino after you've modified it.
 - How fast can you make it blink? 
@@ -178,7 +178,7 @@ When you've finished, save your sketch (using a relevant name) to your computer
 <br>
 <br>
 
-## > Exercise 5: Inserting an LED
+## Exercise 5: Inserting an LED
 If you recall from earlier, the on-board LED (indicated by ```LED_BUILTIN``` in the Arduino code) is also connected to digital pin 13 on your Arduino board. You can connect an LED to this pin in a circuit by connecting one leg to digital pin 13 and the other to the adjacent pin labelled **GND**.
 - The **GND** is the *ground* connection of the circuit. Circuits require a higher- and lower-voltage connection to permit current to pass through it. The ground pin often serves this purpose. In this case, digital pin 13 serves as the higher-voltage connection, and current flows from pin 13, through the LED and toward GND. 
 - Try connecting one of your standard (two-legged) LEDs. If it doesn't work, turn it around and connect it the other way. 
