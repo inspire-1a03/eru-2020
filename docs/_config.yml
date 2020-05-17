@@ -5,8 +5,9 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - eru-setup
+  - eru-setup.md
   - eru-outline.md
+  - eru-github-pages-extra.md
   - eru-day1-2.md
   - eru-day3-4.md
 

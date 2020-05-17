@@ -217,7 +217,7 @@ Now that you've properly identified the resistor you need for this circuit, how 
 - You could solder the pieces together, but we're just experimenting here. 
 - **To connect this circuit, we're going to use a solderless breadboard**
 
-### Solderless breadboard**
+### Solderless breadboard
 The solderless breadboard allows you to create circuits quickly without the need for soldering connections together. 
 - Metal strips run through the backside of the breadboard, which connect specific rows and columns together in a defined manner: 
 
@@ -281,18 +281,136 @@ In this part, you'll learn about and gain experience with the other pieces of te
 - Keep track of version changes to your documents and code; restore previous versions, if necessary
 - Create and publish a webpage that documents your work in this module with only a minimal amount of HTML knowledge. 
 
-## An introduction
-Follow along with the slideshow for an introduction on these tools: 
+## Introduction
+Follow along with the slideshow for an introduction to these tools, and an explanation of how we'll use them: 
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS_OAbvhJsCaoWjW9PjGOIBpk0tO1Fi9vGMhiaKfHsC340OTUXjUbXyvMqtcVTgkT2COvU0gVpJTA3o/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+## Exercise 9: Create your own GitHub repository
+In the exercises to follow, you'll create a GitHub repository for the purposes of learning how to use GitHub, Markdown, and GitHub pages.
 
+#### Your tasks:
+- From your GitHub main page, click on the green **New Repository** button. This is the repository (storage location) where the content of your website will be hosted. 
+  - Provide a name for your repository. The name you enter will determine the URL of your repository.
+    - i.e. ```https://github.com/<your-github-username>/<your-repo-name>```
+	- e.g. ```https://github.com/jasonbrodeur/DASH-githubpages``` is a GitHub repository (*repo*, for short) that I've created in the past.
+- Check the box to **Initialize this repository with a README**
+- Click the **Create repository** button
+- Your browser will now open to the top-level page of the repository. Your repository will contain one markdown file: **README.md**. 
 
+#### Notes: 
+- Your README file is a plan text file (same as a .txt file), but the **.md** extension is used so that GitHub recognizes that the file uses markdown inside. One of the nice features of markdown files is that they are readable by almost any applications, since they are plain text files.
+
+## Exercise 10: Create a folder and a text file within it
+In this task, you'll create a folder that we'll need to initiate the webpage, and you'll learn how to create and edit files. 
+
+#### Your tasks:
+Create a folder named ```docs``` in the top level of the repository. This is where the webpage content will live. We also want to create a file in this folder called ```index.md```. This will be the home page for your website.
+- In the top-level repository page, click **Create new file**
+- In the **Name your file...** box, enter ```docs/index.md```. Click **Commit change**. You will now have a folder named ```docs``` in your repository with a file named ```index.md```.
+
+#### Notes:
+- To create a file, simply enter the desired name and file extension. 
+- To create a folder, you need to add a trailing slash (/) to the name, and you need to [create a file within the folder](https://github.com/KirstieJane/STEMMRoleModels/wiki/Creating-new-folders-in-GitHub-repository-via-the-browser), since empty folders aren't saved. You can always delete this file later.
+
+## Exercise 11: Edit your text file
+
+#### Your tasks:
+- Click on the ```index.md``` file to open it in the file viewer page
+  - On the file viewer page, click the edit button (pencil icon) to switch to editing mode
+  - Add a bit of text to this file (anything is fine). 
+  - When finished editing, scroll to the bottom of the page to the **Commit changes** box. 
+  
+#### Notes:
+- The **Commit changes** box is used to record information about changes before you commit them. 
+  - (optional) If interested, modify the comment from **Update index.md** to something more descriptive
+  - (optional) Add a description, if desired
+- Click the **Commit changes** box to finalize your commit. Your changes will be represented in the file. 
+- If you'd like to better understand how GitHub keeps track of file changes and history, from the **index.md** file viewing page, explore the *Blame* and *History* buttons.
+
+## Exercise 12: Exploring repository features and settings; Configuring GitHub Pages
+In this step, we'll explore some of the functionality available in a GitHub repository and show you how to get started with [GitHub Pages](https://help.github.com/en/github/working-with-github-pages/about-github-pages)
+
+#### Your Tasks:
+- Ensure that you've created the ```docs``` folder and the ```index.md``` file, as outlined in the previous step.
+- From the top-level repository page (i.e. the one where you can see the ```docs``` folder and ```README.md``` file:
+  - Explore the various Features (tabs) that are available within a repository
+  - Open the Settings Tab. Explore the various Settings tabs.
+- On the **Options** subpage (topmost side menu item), scroll down to the **GitHub Pages** section
+  - For **Source**, select **master branch /docs folder** (note you could also pick the *master branch* option, but not for this example.)
+  - Click **Choose a theme** to select a theme for your webpage
+- Congratulations, your website is ready. The link will be provided in the GitHub Pages section.
+  - You may initially receive a 404 error, but after a minute, your website will appear with the content from ```index.md```
+Remember: By default, GitHub Pages expects at least one file in the ```docs``` folder named ```index.md```. This becomes the main (home) page for the webpage.
+**Now, it's time to add some content!**
+
+## Exercise 13: Creating content with Markdown
+One of the really nice things about GitHub and GitHub Pages is that you can use Markdown to format text on a webpage without the use (or knowledge!) of html code (though you can insert it if you need to!). This makes it really easy to create content. In this section, you'll learn a bit more about Markdown and how to use it to create formatted text. 
+
+### What is Markdown? 
+Borrowed shamelessly from Github's [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) page: 
+> Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
+
+Markdown uses simple notation to apply simple formatting rules. Since it's pretty much just plain text, it's transferrable and much simpler than marked-up text like HTML or even Word or Google documents. It's also very readable in its plain text format, which is nice. For much of the writing that you do for the web, Markdown is good enough. Github uses Markdown for its documents (this document was created in markdown), as does a variety of other web platforms (Reddit and Trello, as examples). 
+
+#### Note:
+While editing markdown files in the GitHub editor, use the **Preview changes** tab to see (mostly) how it will render on the web. Note that some content (like html code) won't render properly on GitHub, but will on your webpage. 
+
+#### Your tasks: 
+- Using the Github editor, open ```index.md``` for editing and add some content to it. If you would like to add a title to your page, add the following text at the top:
+
+```
+---
+title: <enter your title here>
+---
+```
+
+- Use the [Mastering Markdown guide](https://guides.github.com/features/mastering-markdown/) as a reference (or other guides on the web) to create a fictional document that contains most of the following elements: 
+  - Headings of a number of different levels
+  - bolded, italicized text 
+  - insert an image from the web
+  - (optional) insert an image that is hosted in your GitHub repository
+  - An ordered list
+  - A bulleted list
+  - A link to another website 
+  - A snippet of code
+  - A table
+  - And finally, an emoji! 
+<br>
+- When satisfied, commit your changes
+- Refresh your website main page to see the updates (note that it may take a minute to update).
+
+## (Optional) Doing more with GitHub pages
+If you're interested in learning how to add multiple pages to a site and embedding content like slideshows and YouTube videos, work through the additional tasks on the [GitHub Pages Extra](eru-github-pages-extra.md) page.
+
+For more information and references for Markdown, refer to:
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) 
+- [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Daring Fireball's Markdown Introduction](https://daringfireball.net/projects/markdown/)
 
 # Part 4: Day 1 Wrap-Up (30 mins).
+Now that you've been introduced to GitHub and markdown, it's time to create your first website with GitHub Pages, and add an image and text for your day 1 reflection. 
+
+## Turn your module repository into a webpage 
+- In your pre-module setup [instructions](eru-setup.md), you were instructed to use [this link](https://classroom.github.com/a/zuDd-h3v) to create a GitHub repository for this module. 
+- Once this is completed, your repository will be created at a url of the form: ```https://github.com/inspire-1a03/intersession-2020/<your_github_username>```
+  - Your repository comes pre-populated with a ```/docs``` folder with an ```index.md``` file inside of it. The **index.md** file is where you will create your project webpage. Some headings and comments have been added to this file to guide you through your deliverables.
+- In your repository's top-level page, click on the *Settings* tab and scroll down 
+  - On the **Options** sub-page (topmost side menu item), scroll down to the **GitHub Pages** section
+  - For **Source**, select **master branch /docs folder**
+  - Click **Choose a theme** to select a theme for your webpage
+- The link will be provided in the GitHub Pages section. 
+![Enabling GitHub Pages](images/github-pages.png "Enabling GitHub Pages")
+<br>
+- For easy reference, copy the URL to your webpage, and paste it into the description box in your top-level repository page by clicking *Edit* and pasting the URL into the *Website* box and clicking *Save*.
+![Adding a website address to a repository](images/website-url-add.png "Adding a website address to a repository")
+
+## Upload a photo to your repository; link to it in your page
  
 
-## Part 1: Intermediate circuits (90 mins)
+
+# Part 5: Intermediate circuits (90 mins)
+
 ## Exercise 9: Using a potentiometer
 In this example, you'll use a potentiometer (dial) to control the brightness of your LED. 
 
@@ -337,7 +455,8 @@ Here, you'll be connecting an RGB LED to the Arduino, using a guide that has bee
 #### Your tasks:
 **PLEASE ASSUME YOU ARE USING A COMMON ANODE RGB LED AND FOLLOW INSTRUCTIONS ACCORDINGLY**
 - Create a new sketch. Delete all of the code so that you have a blank sketch
-- Follow along with the instructions provided on the [Adafruit Learn webpage](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/breadboard-layout) to connect the RGB LED to the Arduino via the breadboard.   
+- Follow along with the instructions provided on the [Adafruit Learn webpage](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/breadboard-layout) to connect the RGB LED to the Arduino via the breadboard. 
+  - **NOTE**: Use your 220 &#937 resistors in place of the 270 &#937 resistors asked for on the instruction page. The RGB LEDs are tolerant to the small difference in resistance. In a pinch, you can even run these for a while without any resistors.
 - Use the *Copy Code* button to copy the code provided on the [Arduino Sketch page](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/arduino-sketch) to the clipboard and paste it into your sketch. Straight copying and pasting from the webpage may cause some stray html characters to end up in your sketch and cause it to fail when compiling. Save the sketch with an appropriate filename.
   - Read through the code and try to understand how it works.
 - As per the instructions, be sure to connect the longest leg to 5V power, and uncomment the line ```\\#define COMMON_ANODE``` by removing the ``\\`` characters to leave ```#define COMMON_ANODE```.
@@ -379,7 +498,7 @@ Once you've completed your RBG LED thermometer:
 - Save your sketch and upload it to your GitHub repository. 
 - Complete the **Day 2: Results** section in your project page (/docs/index.md) of your GitHub repository.
 
-# Part 2: The Great Arduino Make-Off
+# Part 6: The Great Arduino Make-Off
 
 
 [BACK TO MAIN PAGE](index.md)
