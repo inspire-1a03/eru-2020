@@ -6,7 +6,8 @@ title: eru-day2
 
 # ERU - Day 2 Worksheet
 
-## Exercise 11: Using a potentiometer
+## Part 1: Intermediate circuits (90 mins)
+## Exercise 9: Using a potentiometer
 In this example, you'll use a potentiometer (dial) to control the brightness of your LED. 
 
 #### Your tasks:
@@ -24,7 +25,7 @@ In this example, you'll use a potentiometer (dial) to control the brightness of 
 ![Maximizing the serial console](images/fix-serial-monitor.png "Maximizing the serial console")
 
 
-## Exercise 12: Potentiometer out, photoresistor in
+## Exercise 10: Potentiometer out, photoresistor in
 In this example, we’re going to start with the code and wiring used in the previous example, but replace the potentiometer with a photoresistor. The point of this is to demonstrate how both components can be used as control devices by providing variable resistances. This exercise will require you to merge the existing wiring and code from the [AnalogInOutSerial](https://www.arduino.cc/en/Tutorial/AnalogInOutSerial) example, and merge in elements of the [AnalogInput](https://www.arduino.cc/en/Tutorial/AnalogInput) example (namely, the photoresistor example). 
 
 #### Your tasks:
@@ -39,7 +40,7 @@ In this example, we’re going to start with the code and wiring used in the pre
  
 ![AnalogInput Circuit Diagram](images/analog-input.png "AnalogInput Circuit Diagram")
 
-## Exercise 13: Connecting an RGB LED
+## Exercise 11: Connecting an RGB LED
 Here, you'll be connecting an RGB LED to the Arduino, using a guide that has been provided by Adafruit--a company that provides a wide range of DIY electronics and tutorials. 
 
 #### Notes:
@@ -63,8 +64,7 @@ Here, you'll be connecting an RGB LED to the Arduino, using a guide that has bee
   - Wiring the longest leg to **GND** instead of **5V**
   - Re-commenting the ```#define COMMON_ANODE``` so that it appears as ```//#define COMMON_ANODE```
 
-## Exercise 14: An RGB LED thermometer
-**This is your final training task!**  
+## Exercise 12: An RGB LED thermometer (AKA your final training task!)
 In this example, your task is to use a thermistor to sense the temperature of your room (or your hand, or whatever), and have the RGB LED change its colour depending on the value. You'll need to merge the wiring and code from the previous example with those for a thermistor. In the steps below, we'll connect the thermistor first and then move code from the thermistor sketch into the RGB LED one. 
 
 #### Your tasks:
@@ -88,10 +88,12 @@ In this example, your task is to use a thermistor to sense the temperature of yo
 
 <br>
 
-#### Finishing up
-Once you've completed your circuit: 
+## Finishing up
+Once you've completed your RBG LED thermometer: 
 - Save your sketch and upload it to your GitHub repository. 
 - Complete the **Day 2: Results** section in your project page (/docs/index.md) of your GitHub repository.
+
+# Part 2: The Great Arduino Make-Off
 
 
 

@@ -1,10 +1,12 @@
 ---
-title: eru-day1
+title: eru-day1-2
 ---
 
 [BACK TO MAIN PAGE](index.md)
 
-# ERU - Day 1 Worksheet
+# ERU - Day 1 & 2 Worksheet
+
+# Part 1: Introduction (30 mins)
 
 **Welcome to Electronics for the Rest of Us!**  
 <br>
@@ -25,7 +27,7 @@ By the end of this module, you will be able to:
 - Create, edit, and version control files in a GitHub repository
 - Use GitHub Pages to share your results on an openly-accessible webpage
 
-## Exercise 1: Introduction to the module
+## Introduction to the module
 
 The following introductory slideshow will be presented by Jay during the opening class. It provides an overview of the module, its components, expectations, and deliverables. 
 
@@ -36,21 +38,23 @@ The following introductory slideshow will be presented by Jay during the opening
 <br>
 
 
-## Exercise 2: Intro to Arduinos, Sensors, and Actuators
+## Intro to Arduinos, Sensors, and Actuators
 
 Follow along with this short presentation of the types of electronic components we'll be using in this module. Feel free to unpack your kit and check out the components.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmmHAFZtXujn8wWzg8aTdFP0gDFyNTXNqNNpOPwptnSYu_14RDOZCadPCjTX0ELT_yyDm-w6Qh6fWv/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+# Part 2: Getting started with Arduinos (75 mins)
 
-## Exercise 3: Getting Started
+## Exercise 1: Physically connecting the Arduino to your computer
 Now that you've unpacked your kit, it's time to plug in your Arduino and begin using it. 
-### Physically connect the Arduino
+
+#### Notes: 
 - The Arduino can use the USB port to communicate with your computer, as well as draw power from is. Use the USB cable provided to connect the Arduino to your computer's USB port. If done correctly, the on-board LED labelled "**ON**" should light up. If this doesn't work, disconnect and attempt again. 
 - Depending on what program was uploaded to your Arduino board last, you may or may not see the on-board LED labelled "**L**" light up or flash. Arduinos will run its uploaded program upon power-up, and will continue to do so until the *reset* button is pressed, the power is disconnected, or the board breaks. 
   - Note that the on-board LED labelled "**L**" is connected to digital input/output (IO) pin number 13; if the current program provides instructions for current to be provided to pin 13, it'll be reflected in the on-board LED (whether or not anything is connected to digital pin 13. 
   
-### Open the Arduino IDE; Connect to the Arduino board
+### Task: Open the Arduino IDE; Connect to the Arduino board
 Once your Arduino is physically connected to your computer, open up the Arduino IDE program. A new sketch window will appear. The sketch window contains a number of different areas, which are labelled below. You'll learn and use these functions throughout the module.
 
 ![Arduino IDE with parts labelled](images/arduino-ide.png "The Arduino IDE")
@@ -65,15 +69,16 @@ A physically connected Arduino should appear in the Serial Ports list as **COMX 
 To establish the serial connection, click on the listed COM port that where the Arduino is connected. A check mark should appear beside the port when a connection has been made.
 ![Arduino IDE with Ports window showing](images/arduino-port2.png "Arduino IDE Ports list -- Arduino connected")
 
-## Exercise 4: Uploading and running a program
-
-### Open the program "Blink"
+## Exercise 2: Uploading and running a program
 In this exercise, you are going to upload your first program to the Arduino. For this case, we'll use one of the example programs that come with the Arduino IDE.
+
+### Your tasks
+Open the built-in example called *Blink*
 - Go to >File>Examples>0.1Basics> and click on **Blink**. This will open up a new sketch (what Arduino calls its programs) with the Blink program. 
 
 ![Arduino IDE showing the blink program](images/opening-blink.png "Opening blink in the Arduino IDE")
 
-### Upload "Blink" to the Arduino
+Upload "Blink" to the Arduino:
 - Ensuring that the Arduino is connected (both physically and through the COM port), click the upload button. 
   - The status window should first indicate that it is *Compiling sketch*, and then indicate that it is *Uploading*.
 - If the upload was successful, the status window will indicate *Done uploading*, and the info window will communicate the following (or similar):
@@ -89,10 +94,10 @@ What is happening on your Arduino board
   - If the error occurred when uploading (i.e. a connection couldn't be made between the computer and the Arduino), the status window will read: *An error occurred while uploading the sketch*. 
   - If the error occurred when compiling the code (i.e. there's something wrong with your code), the status window will provide an error message, and the problematic line will be highlighted in the sketch. 
 
-## Exercise 5: Understanding an Arduino sketch
+## Exercise 3: Understanding an Arduino sketch
 The blink sketch provides a good opportunity to explore the three fundamental elements of an Arduino sketch. 
 
-### The commented preface
+### Element 1: The commented preface
 ![Arduino blink sketch comments](images/blink-comment.png "Blink sketch comments")
 
 The opening, grey-text section of the sketch is a block comment that contains human-readable information about the program. This section is ignored by the Arduino compiler, and its sole purpose is to provide humans (whether yourself or others) with more information on the code. Comments can be inserted into a sketch as a block using the ```/*``` and ```*/``` characters around the commented text, e.g:
@@ -118,7 +123,7 @@ You'll also notice later in the sketch that comments are inserted on single line
 // This is a commented line
 ```
 
-### The setup function
+### Element 2: The setup function
 ![Arduino blink sketch setup function](images/blink-setup.png "Blink sketch setup function")
 
 As mentioned in the comment above it, the setup function runs a single time when the board is turned on, reset, or when a new program is uploaded to it. The purpose of the setup function is to declare constants and run commands that configure the Arduino board to operate as desired in the following loop function. 
@@ -144,7 +149,7 @@ In this case, there is no returned value (the term ```void``` is used to indicat
 - The first *argument* to the function, ```LED_BUILTIN``` is a built-in constant that refers to digital pin 13, which is connected to the built-in LED on the Arduino board (labelled **"L"**). Note that you could replace ```LED_BUILTIN``` with ```13``` and it would work just the same. 
 - The second *argument*, ```OUTPUT```, indicates that digital pin 13 should be set to output current.
 
-### The loop function
+### Element 3: The loop function
 ![Arduino blink sketch loop function](images/blink-loop.png "Blink sketch loop function")
 
 As also indicated in the preceding comment, the loop function will run repeatedly for as long as the Arduino board is powered and operational. The loop function uses the same form as described above, and contains four lines of executed commands. 
@@ -152,13 +157,13 @@ As also indicated in the preceding comment, the loop function will run repeatedl
 #### Q2:
 - What instructions are each of these lines providing to the Arduino board?
 
-## Exercise 6: Modifying a sketch
+## Exercise 4: Modifying a sketch
 Modify the Blink code so that the onboard LED blinks at a different frequency. **Remember** to save your code and upload it to the Arduino after you've modified it.
 
 - How fast can you make it blink? 
 - Can you make it blink at always-differing intervals? 
 
-## Exercise 7: Inserting an LED
+## Exercise 5: Inserting an LED
 If you recall from earlier, the on-board LED (indicated by ```LED_BUILTIN``` in the Arduino code) is also connected to digital pin 13 on your Arduino board. You can connect an LED to this pin in a circuit by connecting one leg to digital pin 13 and the other to the adjacent pin labelled **GND**.
 - The **GND** is the *ground* connection of the circuit. Circuits require a higher- and lower-voltage connection to permit current to pass through it. The ground pin often serves this purpose. In this case, digital pin 13 serves as the higher-voltage connection, and current flows from pin 13, through the LED and toward GND. 
 - Try connecting one of your standard (two-legged) LEDs. If it doesn't work, turn it around and connect it the other way. 
@@ -172,7 +177,7 @@ If you recall from earlier, the on-board LED (indicated by ```LED_BUILTIN``` in 
 
 ![Image of LED](images/led.png "LED: Anode and Cathode")
 
-## Exercise 8: Reviewing our circuit
+## Exercise 6: Reviewing our circuit
 So, you may be asking yourself at this point: *"Is that the proper way to connect that LED?"*. This is an excellent question. To find the answer:
 - Navigate to the [Arduino tutorial page for Blink](https://www.arduino.cc/en/Tutorial/Blink) (which is provided in the comments of the Blink code)
 - Note the hardware required
@@ -206,7 +211,7 @@ Identify all of the 10 Kohm resistors in your kit
 Use the colour code chart to identify the resistance of the other resistors in your kit (hint: the rest all have the same resistance and all use a 4-band colour code).
 - ***Hint:*** Use a resistor colour code calculator like [this](https://www.digikey.ca/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band) to assess your answer. These kind of calculators are useful when you have a resistor in hand (i.e. you know the colour code), and need to know its resistance.
 
-## Exercise 9: Building a proper circuit
+## Exercise 7: Building a proper circuit
 Now that you've properly identified the resistor you need for this circuit, how are you going to connect the pieces?
 - You could attempt to twist the wires together, but you might break something and it won't be very reliable
 - You could solder the pieces together, but we're just experimenting here. 
@@ -234,7 +239,7 @@ If you are unsure of how to connect items in your circuit:
 - Try to trace the flow of current through your circuit from digital pin 13 to GND. Is there an opportunity for the current to avoid flowing through the LED? 
 - Remember that any two (or more) items inserted into a connected row are all connected to each other at the same time--if you have all of your wires and LED legs plugged into a single row, the current will divert around your LED and flow straight from pin 13 to GND. Turn your LED 90 degrees (so legs are in different rows) and try again to connect the circuit.
 
-## Exercise 10: Using a button
+## Exercise 8: Using a button
 In this example, you'll use a button to turn your LED on (when pushed) and off (when not pushed).
 
 #### Notes 1:
@@ -270,11 +275,112 @@ else {
 ```
 See the [Arduino if-else reference guide](https://www.arduino.cc/reference/en/language/structure/control-structure/else/) for more information. 
 
-## Getting familiar with GitHub, markdown, GitHub pages
+# Part 3: Getting familiar with GitHub, Markdown, GitHub Pages (45 mins)
+In this part, you'll learn about and gain experience with the other pieces of technology that will be used in this module: GitHub, Markdown, GitHub Pages. Used together, these tools will allow you to: 
+- Document your work and store your code
+- Keep track of version changes to your documents and code; restore previous versions, if necessary
+- Create and publish a webpage that documents your work in this module with only a minimal amount of HTML knowledge. 
+
+## An introduction
+Follow along with the slideshow for an introduction on these tools: 
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS_OAbvhJsCaoWjW9PjGOIBpk0tO1Fi9vGMhiaKfHsC340OTUXjUbXyvMqtcVTgkT2COvU0gVpJTA3o/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-## Wrapping up Day 1. 
+
+
+
+# Part 4: Day 1 Wrap-Up (30 mins).
+ 
+
+## Part 1: Intermediate circuits (90 mins)
+## Exercise 9: Using a potentiometer
+In this example, you'll use a potentiometer (dial) to control the brightness of your LED. 
+
+#### Your tasks:
+- Open the AnalogInOutSerial sketch from the Arduino IDE at >File>Examples>03.Analog> and click on **AnalogInOutSerial**
+- Navigate to the Arduino [AnalogInOutSerial tutorial page](https://www.arduino.cc/en/Tutorial/AnalogInOutSerial) to find the hardware requirements and circuit diagram. **Note** that you'll need to connect your circuit using the solderless breadboard.
+- Once you've connected your circuit and successfully uploaded your code, open up the serial monitor on the top-right of the IDE. 
+- Adjust (turn) the potentiometer and observe the changes to the LED, as well as the output in the Serial Monitor.
+
+#### Notes
+1. In this example, the LED is connected to digital pin 9, which is one of six **pulse width modulation (PWM)** digital pins on the Arduino (denoted with a **"~"** symbol on the board). PWM allows a digital output (which is either LOW = OFF or HIGH = ON) to simulate an analog signal (which can assume any value between LOW and HIGH). The command ```analogWrite``` is used instead of *digitalWrite* in this case, since we're writing an analog value to pin 9.
+![Analog vs. Digital Signals](images/analog-digital.png "Analog vs. Digital Signals")
+2. The map function is very useful for scaling the range of one variable to another range. In this example, the analog signal (from the potentiometer) ranges between 0 and 1023, while the acceptable output range for the LED is 0 to 255. The map function proportionally scales the potentiometer value to a usable value for the LED. 
+3. In this example, you've used the Serial Console to establish and carry out serial communication between the Arduino and the computer. The setup function line ```Serial.begin(9600);``` establishes the connection, and the input argument (9600) in this case, determines the rate of information transfer, also known as the *baud* rate (9600 kilobits per second in this case). Clicking the drop-down on the bottom-right of the Serial Console displays the different baud rates that can be used. Note that the baud rate stated in the code needs to match that set in the Serial Console to receive intelligible output.
+4. In some cases (or at least on my Windows 10 laptop), the Serial Console won't appear on the screen when you click it. If this happens, you should be able to fix it by maximizing it in the explorer bar.
+![Maximizing the serial console](images/fix-serial-monitor.png "Maximizing the serial console")
+
+
+## Exercise 10: Potentiometer out, photoresistor in
+In this example, we’re going to start with the code and wiring used in the previous example, but replace the potentiometer with a photoresistor. The point of this is to demonstrate how both components can be used as control devices by providing variable resistances. This exercise will require you to merge the existing wiring and code from the [AnalogInOutSerial](https://www.arduino.cc/en/Tutorial/AnalogInOutSerial) example, and merge in elements of the [AnalogInput](https://www.arduino.cc/en/Tutorial/AnalogInput) example (namely, the photoresistor example). 
+
+#### Your tasks:
+- Use >File>Save As... to save a copy of the AnalogInOutSerial code to a new sketch file in your local working directory. Name the sketch with something descriptive. Use this code as the basis for this example. Upload it to the Arduino.
+- Remove the wiring for the potentiometer, and replace it with the wiring shown for the photoresistor on the [AnalogInput](https://www.arduino.cc/en/Tutorial/AnalogInput) information webpage. 
+- Once you have wired it properly (using the Serial Monitor to confirm), experiment with changing light levels on the photoresistor (using a bright light / covering it with your finger, etc.). Observe the results in the Serial Console (i.e. the range of input values from the photoresistor and the corresponding output values for the LED). Do the values span close to the entire ranges for these devices (0 to 1023 for the photoresistor and 0 to 255 for the LED)? 
+  - If not, modify the **map** function in your code so that the LED brightness ranges from off to full brightness. 
+
+#### Notes
+1. Be sure to save your changes and re-upload the program as you make changes!
+2. Notice in this example that the **5V** and **GND** pins of the Arduino are connected to the outside 'rails' of the breadboard, and that these rails are used to connect to the device. Given that the rails are connected down an entire column, this approach can be helpful when you need to connect more devices to **5V** and **GND** pins than are available.
+ 
+![AnalogInput Circuit Diagram](images/analog-input.png "AnalogInput Circuit Diagram")
+
+## Exercise 11: Connecting an RGB LED
+Here, you'll be connecting an RGB LED to the Arduino, using a guide that has been provided by Adafruit--a company that provides a wide range of DIY electronics and tutorials. 
+
+#### Notes:
+- An RGB LED contains three LEDs (red, green, and blue) integrated into a single casing. By controlling the brightness of each colour (using PWM), it's possible to create a wide variety of colours. Three of the LED legs correspond to one of these LEDs; depending on which time of RGB LED is being used (common anode vs common cathode), the fourth leg connects to either HIGH (5V) or LOW (GND):
+  - For common anode RGB LEDs, the longest leg connects to HIGH (5V), and each of the shorter legs act as cathodes. 
+  - For common cathode RGB LEDs, the longest leg connects to LOW (GND), and each of the shorter legs act as anodes.  
+
+#### Your tasks:
+**PLEASE ASSUME YOU ARE USING A COMMON ANODE RGB LED AND FOLLOW INSTRUCTIONS ACCORDINGLY**
+- Create a new sketch. Delete all of the code so that you have a blank sketch
+- Follow along with the instructions provided on the [Adafruit Learn webpage](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/breadboard-layout) to connect the RGB LED to the Arduino via the breadboard.   
+- Use the *Copy Code* button to copy the code provided on the [Arduino Sketch page](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/arduino-sketch) to the clipboard and paste it into your sketch. Straight copying and pasting from the webpage may cause some stray html characters to end up in your sketch and cause it to fail when compiling. Save the sketch with an appropriate filename.
+  - Read through the code and try to understand how it works.
+- As per the instructions, be sure to connect the longest leg to 5V power, and uncomment the line ```\\#define COMMON_ANODE``` by removing the ``\\`` characters to leave ```#define COMMON_ANODE```.
+- Once the circuit has been wired properly, the code has been uploaded and the RGB LED is working, review the order of colours with what is detailed in the sketch. 
+
+#### If the order of colours does not match what is expected
+- Double-check your wiring. Make sure that the proper LED pins are connected to the proper Arduino pins.
+- Ensure that you've uncommented the ```#define COMMON_ANODE``` line and uploaded the most recent version to the Arduino
+- If these steps don't address the issue, investigate if you have a common cathode RGB LED by: 
+  - Wiring the longest leg to **GND** instead of **5V**
+  - Re-commenting the ```#define COMMON_ANODE``` so that it appears as ```//#define COMMON_ANODE```
+
+## Exercise 12: An RGB LED thermometer (AKA your final training task!)
+In this example, your task is to use a thermistor to sense the temperature of your room (or your hand, or whatever), and have the RGB LED change its colour depending on the value. You'll need to merge the wiring and code from the previous example with those for a thermistor. In the steps below, we'll connect the thermistor first and then move code from the thermistor sketch into the RGB LED one. 
+
+#### Your tasks:
+- Keep your RGB LED wired as it was in the previous example.
+- Open a new sketch and remove all of the default code. Keep the sketch from the last example handy, as well. You'll need it.
+- Go to [this Thermistor example webpage](https://playground.arduino.cc/ComponentLib/Thermistor2/)
+  - Wire the thermistor into the breadboard according to what's outlined under the **Thermistor Test Schematic** heading. Note that this schematic looks a little different than you're used to. It may take a few minutes to figure out what's being described.
+    - **NOTE**: that in this example, you have to connect more than one component to **5V**, but there is only one **5V** pin available. Use jumpers to connect the **5V** and **GND** pins of the Arduino to the two separate rails, and then connect the RGB LED and thermistor to the appropriate rail using jumpers.
+  - Copy the code provided beneath the **The Elaborate Code (cleaned up a bit)** heading and paste it into your blank sketch (be sure not to copy over any text outside of the code box). Review the code and attempt to understand how it works.
+    - Notice that this sketch uses an additional function (called *Thermistor*), which takes the raw current reading, converts it to temperature in Celsius, and returns the value as a floating point number. This function is called within the loop function. 
+- Save your sketch and upload it to the Arduino
+- If the upload works, open up your Serial Monitor to inspect the temperatures being returned to the screen. **NOTE** that the baud rate needs to be changed in the Serial Console window to 115200, in order to correspond with the rate set in the setup function (```Serial.begin(115200);```).
+  - Test the thermistor at different temperatures by touching it with your warmed-up hand, an ice pack, etc. Confirm that temperature changes in an expected manner. 
+- Once you're confident that your thermistor is working, your task is to merge the relevant code from the thermistor example into the previous RGB LED code. 
+  - Be sure to move pieces into the proper locations of the RGB LED script
+    - lines before the setup function should be moved to above the setup function in the RGB LED script.
+	- lines from the setup function should be moved into the setup function in the RGB LED script.
+    - lines from the loop function should be moved into the loop function in the RGB LED script.
+  - Note that you want only one setup and loop function in the final script.
+- Next, you will want to replace the original content from the RGB LED loop function with code that will change the LED colour based on the value of temperature. There are likely many ways to accomplish this, but the most straightforward way is probably to use an [if/elseif/else](https://www.arduino.cc/reference/en/language/structure/control-structure/else/) statement. 
+
+<br>
+
+## Finishing up
+Once you've completed your RBG LED thermometer: 
+- Save your sketch and upload it to your GitHub repository. 
+- Complete the **Day 2: Results** section in your project page (/docs/index.md) of your GitHub repository.
+
+# Part 2: The Great Arduino Make-Off
+
 
 [BACK TO MAIN PAGE](index.md)
 

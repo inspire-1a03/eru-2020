@@ -22,7 +22,7 @@ Please complete the tasks outlined [here](eru-setup.md) prior to the initial cla
 
 # Worksheets:
 <!--
-[Day 1](eru-day1.md)
+[Day 1](eru-day1-2.md)
 [Day 2](eru-day2.md)
 [Days 3 & 4](eru-day3-4.md)
 -->
