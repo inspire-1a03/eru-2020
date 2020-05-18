@@ -26,7 +26,7 @@ Through participation in the course, students will develop a number of knowledge
 7. Use GitHub Pages to share your results on an openly-accessible webpage
 
 ## Module structure and schedule: 
-Students will be required to work approximately 3 hours per day for four consecutive days (May 19 to May 22). Working time will be split between synchronous classwork, synchronous groupwork, and asynchronous independent work. The instructor will be available for consultation during all working periods, regardless of whether synchronous activities are taking place. 
+Students will be required to work approximately 3 hours per day for four consecutive days (May 19 to May 22). Working time will be split between synchronous classwork, synchronous group work, and asynchronous independent work. The instructor will be available for consultation during all working periods, regardless of whether synchronous activities are taking place. 
 
 The module will be delivered using a variety of different modes. All synchronous sessions will be carried out using MS Teams (Jay has added (or will soon add) you to a Team). Following the opening class, most work can be done asynchronously (using prepared guides and videos), though it is still expected that you participate in the group support sessions.
 - Asynchronous working time: Using prepared guides and videos to complete the lessons
@@ -68,7 +68,77 @@ All deliverables will be compiled in a GitHub repository that you will create fo
 |Final reflection & summary| 15% |Completed on Day 4|
 |Overall project webpage quality|10%|       |
 
+The module will be graded out of 100 points. See the point breakdown and evaluation criteria below: 
+
+### Day 1 reflection + embedded photo
+Total points: 15
+- Reflection (/10) -- see notes below about reflections
+- Embedded photo (/3)
+- Working webpage (/2)
+
+### Day 2 results + uploaded thermometer code
+Total points: 20
+- Summary is complete and well-written (/5)
+- Code (/15)--see notes below about code
+
+### Final device description + code + sales pitch video
+Total points: 40
+- Description is complete and well-written; table displays properly (/10) 
+- Code (/15)--see notes below about code
+- Project pitch video
+  - Originality and creativity (/10) 
+  - Production value (/5)
+
+### Final reflection & summary
+Total points: 15
+- Reflection (/15) -- see notes below about reflections
+
+### Overall project webpage quality
+Total points: 10
+- All content is included (/5)
+- Content is formatted neatly (/5)
+
+#### Reflections
+Reflections will be evaluated according to the following criteria: 
+- Depth of reflection
+- Connections with other learning and life experiences
+- Composition (spelling, grammar, formatting)
+Students are encouraged to follow the general guidance on reflections provided generally for INSPIRE 1A03. 
+
+#### Uploaded code
+Uploaded code will be evaluated according to the following criteria: 
+- Code compiles without error
+- Code is organized and arranged neatly
+- Sufficient commented preface, which outlines the purpose of the code, what it does, who created it, and when.
+- Sufficient, plain-language comments throughout the code, which explain the functionality of sections of the code.
+
 ## Instructor biography:
 In his day job, [Jay Brodeur](https://experts.mcmaster.ca/display/brodeujj) is the Associate Director of Digital Scholarship Services in the McMaster University Library, where he oversees a variety of services that support research and instruction at McMaster. His background is in the Environmental Sciences, and his research interests include climate change, GIS and geomatics, and data management. When he can, Jay also enjoys teaching; he regularly teaches in the iSci program, and has been fortunate to instruct courses in the Faculties of Science, Social Sciences, and Humanities, as well as the Arts & Science Program. 
 
 [BACK TO MAIN PAGE](index.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
