@@ -20,5 +20,5 @@ Copies of your module outline will be provided in your project repository, but y
 Please complete the tasks outlined [here](eru-setup.md) prior to the initial class.
 
 ## Worksheets:
-[Days 1 & 2](eru-day1-2.md)
-[Days 3 & 4](eru-day3-4.md)
+- [Days 1 & 2](eru-day1-2.md)
+- [Days 3 & 4](eru-day3-4.md)
