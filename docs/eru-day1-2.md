@@ -11,7 +11,6 @@ Worksheets for the first two days of Electronics for the Rest of Us.
 # Part 1: Introduction (30 mins)
 
 **Welcome to Electronics for the Rest of Us!**  
-<br>
 
 Thanks for being a part of this module. Over the next four days, we'll be working together to explore some fundamental concepts in electronics, programming, and version control--all while building some small but interesting devices! 
 
@@ -53,7 +52,7 @@ Follow along with this short presentation of the types of electronic components 
 <br>
 
 ### (OPTIONAL) Pre-recorded presentation
-<iframe width="787" height="443" src="https://www.youtube.com/embed/53GxKjCGzK0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="786" height="442" src="https://www.youtube.com/embed/P54mvrdjD0g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
