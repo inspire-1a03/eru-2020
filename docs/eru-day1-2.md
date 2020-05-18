@@ -425,7 +425,7 @@ For more information and references for Markdown, refer to:
 <br>
 
 # Part 4: Day 1 Wrap-Up (30 mins).
-Now that you've been introduced to GitHub and markdown, it's time to create your first website with GitHub Pages, and add an image and text for your day 1 reflection. 
+Now that you've been introduced to GitHub and markdown, it's time to create your first website with GitHub Pages, and add an image and text for your day 1 reflection. Refer to the module [outline page](eru-outline.md) for more information on evaluation criteria.
 
 ## Turn your module repository into a webpage 
 - In your pre-module setup [instructions](eru-setup.md), you were instructed to use [this link](https://classroom.github.com/a/zuDd-h3v) to create a GitHub repository for this module. 
@@ -555,6 +555,8 @@ In this example, your task is to use a thermistor to sense the temperature of yo
 Once you've completed your RBG LED thermometer: 
 - Upload your saved sketch to the top-level directory of your GitHub repository. 
 - Complete the **Day 2: Results** section in your project page (/docs/index.md) of your GitHub repository.
+Refer to the module [outline page](eru-outline.md) for more information on evaluation criteria.
+
 
 During the last hour of day 2, you'll be given an hour to chat with your breakout group peers to brainstorm ideas for your days 3 and 4 challenge: **The Great Arduino Make-Off**
 - Review the instructions provided in your [Day 3 and 4 instruction page](eru-day3-4.md)
