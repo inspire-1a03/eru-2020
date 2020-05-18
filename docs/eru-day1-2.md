@@ -330,7 +330,7 @@ Follow along with the slideshow for an introduction to these tools, and an expla
 <br>
 
 ### (OPTIONAL) Pre-recorded presentation
-
+<iframe width="786" height="442" src="https://www.youtube.com/embed/bL38CO-g1qw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## > Exercise 9: Create your own GitHub repository
 In the exercises to follow, you'll create a GitHub repository for the purposes of learning how to use GitHub, Markdown, and GitHub pages.
