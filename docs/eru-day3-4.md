@@ -25,7 +25,8 @@ This portion of your module has three deliverables, which will all be added to y
 
 Refer to the [course outline page](eru-outline.md) for more information on evaluation. 
 
-[BACK TO MAIN PAGE](index.md)
+### Notes: 
+- To learn more about how to use the buzzer, explore and try the examples beginning with ***tone*** in File>Examples>0.2Digital> in your Arduino IDE. 
 
 
 ## Final reflection and summary 
@@ -35,40 +36,5 @@ In the appropriate section of your index.md file, use ~300 words to reflect on y
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[BACK TO MAIN PAGE](index.md)
 

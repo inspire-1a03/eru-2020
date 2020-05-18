@@ -13,19 +13,12 @@ This is the main landing page for your module. Below you will find links to page
 <br>
 -->
 
-# Module outline
+## Module outline
 Copies of your module outline will be provided in your project repository, but you can also find it as a [webpage here](eru-outline.md) or a [PDF](eru-outline.pdf).
 
-
-# Pre-module setup 
+## Pre-module setup 
 Please complete the tasks outlined [here](eru-setup.md) prior to the initial class.
 
-# Worksheets:
-<!--
-[Day 1](eru-day1-2.md)
-[Day 2](eru-day2.md)
+## Worksheets:
+[Days 1 & 2](eru-day1-2.md)
 [Days 3 & 4](eru-day3-4.md)
--->
-Day 1 - *coming soon*  
-Day 2 - *coming soon*  
-Days 3 & 4 - *coming soon*
