@@ -29,6 +29,8 @@ By the end of this module, you will be able to:
 - Create, edit, and version control files in a GitHub repository
 - Use GitHub Pages to share your results on an openly-accessible webpage
 
+A full course outline--including deliverables and evaluation criteria can be found on the [outline page](https://inspire-1a03.github.io/eru-2020/eru-outline.html).
+
 ## Introduction to the module
 
 The following introductory slideshow will be presented by Jay during the opening class. It provides an overview of the module, its components, expectations, and deliverables. 
