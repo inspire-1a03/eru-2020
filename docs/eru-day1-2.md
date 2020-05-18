@@ -41,17 +41,28 @@ The following introductory slideshow will be presented by Jay during the opening
 [View slides in PDF format](slides.pdf)
 <br>
 
-
+### (OPTIONAL) Pre-recorded presentation
+<iframe width="787" height="443" src="https://www.youtube.com/embed/53GxKjCGzK0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br>
 ## Intro to Arduinos, Sensors, and Actuators
 
 Follow along with this short presentation of the types of electronic components we'll be using in this module. Feel free to unpack your kit and check out the components.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmmHAFZtXujn8wWzg8aTdFP0gDFyNTXNqNNpOPwptnSYu_14RDOZCadPCjTX0ELT_yyDm-w6Qh6fWv/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <br>
+
+### (OPTIONAL) Pre-recorded presentation
+<iframe width="787" height="443" src="https://www.youtube.com/embed/53GxKjCGzK0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br>
 
 # Part 2: Getting started with Arduinos (75 mins)
 <br>
+
+### (OPTIONAL) Exercise 1-7 explainer video 
+You can use this video to supplement the instructions listed below for Exercises 1 through 7.
+<iframe width="787" height="443" src="https://www.youtube.com/embed/M32NmtEWM4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## > Exercise 1: Physically connecting the Arduino to your computer
 Now that you've unpacked your kit, it's time to plug in your Arduino and begin using it. 
@@ -265,6 +276,10 @@ If you are unsure of how to connect items in your circuit:
 ## > Exercise 8: Using a button
 In this example, you'll use a button to turn your LED on (when pushed) and off (when not pushed).
 
+### (OPTIONAL) Exercise 8 explainer video 
+<iframe width="787" height="443" src="https://www.youtube.com/embed/EaIkORyZHMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
 #### Notes 1:
 1. This example uses the on-board LED at pin 13. If you'd like, leave your LED circuit wired into the breadboard from the Blink example--it'll light up when you push the button. 
 2. **How the button works**: The opposing legs of a button are connected to each other internally. When the button is not pushed in, the two sets of legs are not connected to each other. When the button is pushed, a metal gate closes to connect the two legs together, allowing current to flow from left to right across the button
@@ -314,9 +329,16 @@ Follow along with the slideshow for an introduction to these tools, and an expla
 <br>
 <br>
 
+### (OPTIONAL) Pre-recorded presentation
+
+
 ## > Exercise 9: Create your own GitHub repository
 In the exercises to follow, you'll create a GitHub repository for the purposes of learning how to use GitHub, Markdown, and GitHub pages.
 
+### (OPTIONAL) Examples 9-13 explainer video
+<iframe width="786" height="442" src="https://www.youtube.com/embed/FjGR76Wl1xI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br>
 #### Your tasks:
 - From your GitHub main page, click on the green **New Repository** button. This is the repository (storage location) where the content of your website will be hosted. 
   - Provide a name for your repository. The name you enter will determine the URL of your repository.
@@ -468,6 +490,9 @@ In the following examples, you'll build upon earlier work to create increasingly
 ## > Exercise 14: Using a potentiometer
 In this example, you'll use a potentiometer (the blue turn dial) to control the brightness of your LED. 
 
+### (OPTIONAL) Exercise 14 explainer video
+<iframe width="787" height="443" src="https://www.youtube.com/embed/9GYFeAeXMxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### Your tasks:
 - Open the AnalogInOutSerial sketch from the Arduino IDE at >File>Examples>03.Analog> and click on **AnalogInOutSerial**
 - Navigate to the Arduino [AnalogInOutSerial tutorial page](https://www.arduino.cc/en/Tutorial/AnalogInOutSerial) to find the hardware requirements and circuit diagram. **Note** that you'll need to connect your circuit using the solderless breadboard.
@@ -487,6 +512,9 @@ In this example, you'll use a potentiometer (the blue turn dial) to control the 
 ## > Exercise 15: Potentiometer out, photoresistor in
 In this example, we’re going to start with the code and wiring used in the previous example, but replace the potentiometer with a photoresistor. The point of this is to demonstrate how both components can be used as control devices by providing variable resistances. This exercise will require you to merge the existing wiring and code from the [AnalogInOutSerial](https://www.arduino.cc/en/Tutorial/AnalogInOutSerial) example, and merge in elements of the [AnalogInput](https://www.arduino.cc/en/Tutorial/AnalogInput) example (namely, the photoresistor example). 
 
+### (OPTIONAL) Exercise 15 explainer video
+<iframe width="787" height="443" src="https://www.youtube.com/embed/_R2eAaKamnA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### Your tasks:
 - Use >File>Save As... to save a copy of the AnalogInOutSerial code to a new sketch file in your local working directory. Name the sketch with something descriptive. Use this code as the basis for this example. Upload it to the Arduino.
 - Remove the wiring for the potentiometer, and replace it with the wiring shown for the photoresistor on the [AnalogInput](https://www.arduino.cc/en/Tutorial/AnalogInput) information webpage. 
@@ -503,6 +531,9 @@ In this example, we’re going to start with the code and wiring used in the pre
 
 ## > Exercise 16: Connecting an RGB LED
 Here, you'll be connecting an RGB LED to the Arduino, using a guide that has been provided by Adafruit--a company that provides a wide range of DIY electronics and tutorials. 
+
+### (OPTIONAL) Exercise 16 explainer video
+<iframe width="786" height="442" src="https://www.youtube.com/embed/JE47V8RYoUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Notes:
 - An RGB LED contains three LEDs (red, green, and blue) integrated into a single casing. By controlling the brightness of each colour (using PWM), it's possible to create a wide variety of colours. Three of the LED legs correspond to one of these LEDs; depending on which time of RGB LED is being used (common anode vs common cathode), the fourth leg connects to either HIGH (5V) or LOW (GND):
@@ -530,6 +561,9 @@ Here, you'll be connecting an RGB LED to the Arduino, using a guide that has bee
 
 ## > Exercise 17: An RGB LED thermometer (AKA your final training task!)
 In this example, your task is to use a thermistor to sense the temperature of your room (or your hand, or whatever), and have the RGB LED change its colour depending on the value. You'll need to merge the wiring and code from the previous example with those for a thermistor. In the steps below, we'll connect the thermistor first and then move code from the thermistor sketch into the RGB LED one. 
+
+### (OPTIONAL) Exercise 17 explainer video
+<iframe width="786" height="442" src="https://www.youtube.com/embed/Ge9ytNeKzXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Your tasks:
 - Keep your RGB LED wired as it was in the previous example.
