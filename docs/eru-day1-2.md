@@ -37,7 +37,7 @@ The following introductory slideshow will be presented by Jay during the opening
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRGF9iiknpFD8UbYc0AZwdgcNO8SvpcMJ73Y5ASyecBScyvJuylV-xTP95J_hA42YNe1FkxRFMuXxhE/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <br>
-[View slides in PDF format](slides.pdf)
+[View slides in PDF format](eru-pres-intro.pdf)
 <br>
 
 ### (OPTIONAL) Pre-recorded presentation
@@ -49,6 +49,8 @@ The following introductory slideshow will be presented by Jay during the opening
 Follow along with this short presentation of the types of electronic components we'll be using in this module. Feel free to unpack your kit and check out the components.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmmHAFZtXujn8wWzg8aTdFP0gDFyNTXNqNNpOPwptnSYu_14RDOZCadPCjTX0ELT_yyDm-w6Qh6fWv/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<br>
+[View slides in PDF format](eru-pres-arduinos.pdf)
 <br>
 
 ### (OPTIONAL) Pre-recorded presentation
@@ -326,7 +328,9 @@ Follow along with the slideshow for an introduction to these tools, and an expla
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS_OAbvhJsCaoWjW9PjGOIBpk0tO1Fi9vGMhiaKfHsC340OTUXjUbXyvMqtcVTgkT2COvU0gVpJTA3o/embed?start=false&loop=true&delayms=15000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <br>
+[View slides in PDF format](eru-pres-arduinos.pdf)
 <br>
+
 
 ### (OPTIONAL) Pre-recorded presentation
 <iframe width="786" height="442" src="https://www.youtube.com/embed/bL38CO-g1qw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
