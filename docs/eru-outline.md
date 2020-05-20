@@ -70,30 +70,57 @@ All deliverables will be compiled in a GitHub repository that you will create fo
 
 The module will be graded out of 100 points. See the point breakdown and evaluation criteria below: 
 
-### Day 1 reflection + embedded photo
-Total points: 15
+### Deliverable 1. Day 1 reflection + embedded photo
+1. Provide a ~250 word reflection on your first day of the module, and discuss why you're interested in this module and what you hope to take away from it.
+2. Take a photo of one of your circuits (ideally from the Button example). Upload it to the /docs/images/ directory of your project repository
+3. Link to your uploaded photo in the Markdown file
+**See the [Day 1 & 2 Worksheet](eru-day1-2.md) and the commented section of your index.md file for more information.
+
+#### Total points: 15
 - Reflection (/10) -- see notes below about reflections
 - Embedded photo (/3)
 - Working webpage (/2)
 
-### Day 2 results + uploaded thermometer code
-Total points: 20
+### Deliverable 2: Day 2 results + uploaded thermometer code
+1. Upload your fully-commented Arduino sketch from your final Day 2 build task--a thermometer connected to an RDB LED--into your GitHub repository.
+2. Provide a short (~150 words) summary of your work on this circuit:
+- How does your device work?
+- What was challenging? 
+- What worked? What didn't? 
+3. Be sure to link to your code (in your GitHub repository) in the text of your response.
+**See the [Day 1 & 2 Worksheet](eru-day1-2.md) and the commented section of your index.md file for more information.
+
+#### Total points: 20
 - Summary is complete and well-written (/5)
 - Code (/15)--see notes below about code
 
-### Final device description + code + sales pitch video
-Total points: 40
+### Deliverable 3 Final device description + code + sales pitch video
+1. Upload your fully-commented Arduino sketch from the final product of your Arduino build-off into the top-level of your module GitHub repository.
+2. In ~300 words, provide a final device description and product pitch: 
+- What does it do? Use a table (created in markdown) to list and describe the features. You can use the template provided below. 
+- Describe briefly how it works.
+- How could it be used in everyday life (or maybe just in rare cases)? 
+- Be sure to link to your code (in your GitHub repository) in the text of your response.
+- Include a snippet of code using the ``` ``` characters to display the code properly. 
+3. Finally, record a short (30 second) video of a 'product pitch' for your device. 
+- Upload the video to YouTube, and embed it into your webpage (see Markdown code found in comments in index.md).
+
+#### Total points: 40
 - Description is complete and well-written; table displays properly (/10) 
 - Code (/15)--see notes below about code
 - Project pitch video
   - Originality and creativity (/10) 
   - Production value (/5)
 
-### Final reflection & summary
-Total points: 15
+### Deliverable 4. Final reflection & summary
+1. In ~300 words:
+- Summarize your experience in this module. What you learned, what you liked, what you found challenging.
+- Reflect upon your learning and its relevance in your life.
+
+#### Total points: 15
 - Reflection (/15) -- see notes below about reflections
 
-### Overall project webpage quality
+### Deliverable 5. Overall project webpage quality
 Total points: 10
 - All content is included (/5)
 - Content is formatted neatly (/5)
