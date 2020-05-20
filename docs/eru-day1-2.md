@@ -274,6 +274,9 @@ If you are unsure of how to connect items in your circuit:
 <br>
 <br>
 
+#### An example of a properly-wired blink circuit
+![Arduino circuit for blink](images/blink-solution.png "Blink circuit")
+
 ## > Exercise 8: Using a button
 In this example, you'll use a button to turn your LED on (when pushed) and off (when not pushed).
 
