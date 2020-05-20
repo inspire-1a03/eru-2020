@@ -125,14 +125,14 @@ Total points: 10
 - All content is included (/5)
 - Content is formatted neatly (/5)
 
-### Reflections
+### A NOTE ON Reflections
 Reflections will be evaluated according to the following criteria: 
 - Depth of reflection
 - Connections with other learning and life experiences
 - Composition (spelling, grammar, formatting)
 Students are encouraged to follow the general guidance on reflections provided generally for INSPIRE 1A03. 
 
-### Uploaded code
+### A NOTE ON Uploaded code
 Uploaded code will be evaluated according to the following criteria: 
 - Code compiles without error
 - Code is organized and arranged neatly
