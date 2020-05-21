@@ -12,7 +12,7 @@ During days 3 and 4 of the module, students will put their newly-developed skill
 You have a great deal of freedom in creating your device, though it must use sensors to collect information from the environment, and subsequently use that information to provide feedback--whether using LEDs, the buzzer, the serial monitor, etc. Specifically, your device must meet a few criteria: 
 1. Your device must incorporate at least three of the four input devices provided (photoresistor, potentiometer, thermistor, button)
 2. Your device must use the RGB LED, and the buzzer. You can use as many or as few of the other LEDs as you'd like. 
-3. Your device should be built on the principle that it provides some sort of value to a human (or other sentient beings). The purpose may for information, utility, entertainment, education, novelty, etc. You should be sure to articulate the purpose(s) in your final summary and sales pitch video. 
+3. Your device should be built on the principle that it provides some sort of value to a human (or other sentient beings). The purpose may be for information, utility, entertainment, education, novelty, etc. You should be sure to articulate the purpose(s) in your final summary and sales pitch video. 
 
 This portion of your module has three deliverables, which will all be added to your module GitHub repository and/or your project webpage (via the index.md file):
 1. The fully-commented Arduino sketch from your final product, uploaded to the top-level of your module GitHub repository.
@@ -22,7 +22,8 @@ This portion of your module has three deliverables, which will all be added to y
 - How it could be used in everyday life (or maybe just in rare cases)? 
 - Be sure to link to your code (in your GitHub repository) in the text of your response.
 - Include a small snippet of code into the webpage using the \``` characters to display the code properly. 
-
+3. A short (30 second) 'product pitch' video for your device. 
+- Upload the video to YouTube, and embed it into your webpage (see Markdown code found in comments in index.md).
 Refer to the [course outline page](eru-outline.md) for more information on evaluation. 
 
 ### Notes: 
