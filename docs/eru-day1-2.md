@@ -355,7 +355,7 @@ In the exercises to follow, you'll create a GitHub repository for the purposes o
 - Your browser will now open to the top-level page of the repository. Your repository will contain one markdown file: **README.md**. 
 
 #### Notes: 
-- Your README file is a plan text file (same as a .txt file), but the **.md** extension is used so that GitHub recognizes that the file uses markdown inside. One of the nice features of markdown files is that they are readable by almost any applications, since they are plain text files.
+- Your README file is a plain text file (same as a .txt file), but the **.md** extension is used so that GitHub recognizes that the file uses markdown inside. One of the nice features of markdown files is that they are readable by almost any applications, since they are plain text files.
 <br>
 <br>
 
